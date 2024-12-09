@@ -1,4 +1,4 @@
-const  OrderTable  = require('../model').orders; // Adjust the path to your models
+const  OrderTable  = require('..').orders; // Adjust the path to your models
 
 // Create a new order
 const createOrder = async (req, res) => {

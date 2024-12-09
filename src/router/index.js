@@ -1,5 +1,5 @@
 
-const riderRouter = require("../rider/router")
+const riderRouter = require("../model/rider/router")
 
 module.exports={
     riderRouter,

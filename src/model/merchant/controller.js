@@ -1,4 +1,4 @@
-const  Merchant  = require('../model').merchant; // Adjust the path to your models
+const  Merchant  = require('..').merchant; // Adjust the path to your models
 
 // Create a new merchant
 const createMerchant = async (req, res) => {

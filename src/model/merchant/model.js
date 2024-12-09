@@ -17,8 +17,12 @@ module.exports = (sequelize,DataTypes) => {
             type: DataTypes.TEXT,
             allowNull: true,
         },
-        location: {
-            type: DataTypes.GEOGRAPHY, // For storing coordinates (latitude & longitude)
+        latitude: {
+            type: DataTypes.STRING, // For storing coordinates (latitude & longitude)
+            allowNull: true, // Set to `false` if location is mandatory
+        },
+        longitude: {
+            type: DataTypes.STRING, // For storing coordinates (latitude & longitude)
             allowNull: true, // Set to `false` if location is mandatory
         },
         serviceStatus: {

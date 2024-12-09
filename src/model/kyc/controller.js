@@ -1,5 +1,5 @@
-const KYC = require('../model').kyc; // Adjust the path to your models
-const Rider = require('../model').rider; // Adjust the path to your models
+const KYC = require('..').kyc; // Adjust the path to your models
+const Rider = require('..').rider; // Adjust the path to your models
 
 // Create a new KYC record
 const createKYC = async (req, res) => {

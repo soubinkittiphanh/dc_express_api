@@ -1,4 +1,4 @@
-const Rider  = require('../model').rider; // Adjust the path to your model
+const Rider  = require('..').rider; // Adjust the path to your model
 
 // Create a new rider
 const createRider = async (req, res) => {

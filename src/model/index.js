@@ -8,11 +8,12 @@ db.sequelizeDCExpress = dcExpressDB;
 db.Sequelize = Sequelize;
 
 // Example model imports
-db.rider = require("../rider/model")(dcExpressDB, DataTypes);
-db.kyc = require("../kyc/model")(dcExpressDB, DataTypes);
-db.orders = require("../orders/model")(dcExpressDB, DataTypes);
-db.merchant = require("../merchant/model")(dcExpressDB, DataTypes);
-db.image = require("../images/model")(dcExpressDB, DataTypes);
+db.rider = require("./rider/model")(dcExpressDB, DataTypes);
+db.kyc = require("./kyc/model")(dcExpressDB, DataTypes);
+db.orders = require("./orders/model")(dcExpressDB, DataTypes);
+db.merchant = require("./merchant/model")(dcExpressDB, DataTypes);
+db.image = require("./images/model")(dcExpressDB, DataTypes);
+db.orderPrice = require("./ordersPricing/model")(dcExpressDB, DataTypes);
 
 // Load associations
 require('./associations/index')(db);

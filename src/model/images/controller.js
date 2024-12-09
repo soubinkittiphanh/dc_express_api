@@ -1,4 +1,4 @@
-const  Image  = require('../model').image; // Adjust the path to your models
+const  Image  = require('..').image; // Adjust the path to your models
 
 // Create a new image
 const createImage = async (req, res) => {

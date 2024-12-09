@@ -242,3 +242,32 @@
 {"level":"info","message":"app is runing: 8888","timestamp":"2024-12-08T09:46:01.155Z"}
 {"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-08T09:46:01.156Z"}
 {"level":"info","message":"client_db Connection established","timestamp":"2024-12-08T09:46:01.725Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-09T13:20:00.863Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-09T13:20:00.865Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-09T13:20:00.866Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-09T13:20:00.866Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-09T13:20:00.867Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-09T13:20:01.313Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-09T13:20:01.314Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-09T13:20:01.315Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2024-12-09T13:20:01.749Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-09T13:22:02.554Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-09T13:22:02.556Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-09T13:22:02.557Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-09T13:22:02.557Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-09T13:22:02.557Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-09T13:22:02.955Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-09T13:22:02.955Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-09T13:22:02.956Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2024-12-09T13:22:03.139Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2024-12-09T13:22:04.102Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-09T13:36:52.969Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-09T13:36:52.971Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-09T13:36:52.972Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-09T13:36:52.972Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-09T13:36:52.973Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-09T13:36:53.401Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-09T13:36:53.401Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-09T13:36:53.402Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2024-12-09T13:36:53.579Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2024-12-09T13:36:54.820Z"}
