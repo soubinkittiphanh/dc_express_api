@@ -1,4 +1,4 @@
-const  User  = require('./model').user; // Adjust the path to your models
+const  User  = require('../').user; // Adjust the path to your models
 const bcrypt = require('bcrypt');
 
 

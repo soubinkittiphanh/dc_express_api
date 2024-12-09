@@ -15,6 +15,7 @@ db.orders = require("./orders/model")(dcExpressDB, DataTypes);
 db.merchant = require("./merchant/model")(dcExpressDB, DataTypes);
 db.image = require("./images/model")(dcExpressDB, DataTypes);
 db.orderPrice = require("./ordersPricing/model")(dcExpressDB, DataTypes);
+db.liveLocation = require("./liveLocation/model")(dcExpressDB, DataTypes);
 
 // Load associations
 require('./associations/index')(db);
