@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const kycController = require('./controller');
-
+const {validateToken} = require('../../api').jwtApi
+router.use(validateToken);
 // Define routes for KYC CRUD operations
 router.post('/kycs', kycController.createKYC);
 router.get('/kycs', kycController.getAllKYC);

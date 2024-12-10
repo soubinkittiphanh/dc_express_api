@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const imageController = require('./controller');
-
+const {validateToken} = require('../../api').jwtApi
+router.use(validateToken);
 // Define routes for Image CRUD operations
 router.post('/images', imageController.createImage);
 router.get('/images', imageController.getAllImages);

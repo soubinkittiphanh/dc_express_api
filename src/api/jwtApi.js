@@ -2,21 +2,23 @@
 const jwt = require('jsonwebtoken');
 const logger = require('./logger');
 const secretKey = require('../config').actksecret;
-function validateToken(req, res, next) {
-    const authHeader = req.headers['authorization']
-    const token = authHeader && authHeader.split(' ')[1]
-    if (!token) return res.status(401).send('Request without token is prohibited')
-    jwt.verify(token, secretKey, (error, user) => {
-        logger.warn(`Validating token...`)
-        if (error) {
-            logger.error(`Something wrong in token ${error}`)
-            return res.status(403).send('Token invalid or expired!')
-        }
-        logger.warn(`User name from token: ${user.cus_name}`);
-        req.user = user;
-        next()
-    })
-}
+const validateToken = (req, res, next) => {
+    // Extract token from the Authorization header
+    const token = req.header('Authorization')?.split(' ')[1];
+
+    if (!token) {
+        return res.status(401).json({ message: 'Access denied. No token provided.' });
+    }
+
+    try {
+        // Verify the token
+        const decoded = jwt.verify(token, process.env.JWT_SECRET || 'your_secret_key');
+        req.user = decoded; // Attach the decoded payload (user data) to the request object
+        next(); // Proceed to the next middleware or route handler
+    } catch (error) {
+        res.status(403).json({ message: 'Invalid token' });
+    }
+};
 
 const generateToken = (user) => {
     // const user = { name: u_name,tel:u_phone,id:u_id };
@@ -51,4 +53,4 @@ const deleteToken = (req, res) => {
     res.status(200).send({ status: 'succeed' })
 }
 
-module.exports = { validateToken, generateToken,getUserFromToken,deleteToken }
+module.exports = { validateToken, generateToken, getUserFromToken, deleteToken }

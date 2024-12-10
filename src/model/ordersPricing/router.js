@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const orderPriceController = require('./controller');
-
+const {validateToken} = require('../../api').jwtApi
+router.use(validateToken);
 // Define routes for OrderPrice CRUD operations
 router.post('/order-prices', orderPriceController.createOrderPrice);
 router.get('/order-prices', orderPriceController.getAllOrderPrices);

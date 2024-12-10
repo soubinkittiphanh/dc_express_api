@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const orderController = require('./controller');
-
+const {validateToken} = require('../../api').jwtApi
+router.use(validateToken);
 // Define routes for Order CRUD operations
 router.post('/orders', orderController.createOrder);
 router.get('/orders', orderController.getAllOrders);
