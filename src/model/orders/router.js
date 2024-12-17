@@ -4,10 +4,10 @@ const orderController = require('./controller');
 const {validateToken} = require('../../api').jwtApi
 router.use(validateToken);
 // Define routes for Order CRUD operations
-router.post('/orders', orderController.createOrder);
-router.get('/orders', orderController.getAllOrders);
-router.get('/orders/:id', orderController.getOrderById);
-router.put('/orders/:id', orderController.updateOrder);
-router.delete('/orders/:id', orderController.deleteOrder);
+router.post('/create', orderController.createOrder);
+router.get('/find', orderController.getAllOrders);
+router.get('/find/:id', orderController.getOrderById);
+router.put('/update/:id', orderController.updateOrder);
+router.delete('/delete/:id', orderController.deleteOrder);
 
 module.exports = router;

@@ -5,7 +5,7 @@ module.exports = (db)=>{
     })
     db.image.belongsTo(db.orders, {
         foreignKey: 'orderId',
-        as: 'orderTable'
+        as: 'order'
     })
     db.image.belongsTo(db.user, {
         foreignKey: 'userId',

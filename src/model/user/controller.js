@@ -1,4 +1,5 @@
-const  User  = require('../').user; // Adjust the path to your models
+const User = require('../').user; // Adjust the path to your models
+const Rider = require('../').rider; // Adjust the path to your models
 const bcrypt = require('bcrypt');
 
 
@@ -53,10 +54,10 @@ const createUser = async (req, res) => {
     // Hash the password before saving
     const hashedPassword = await bcrypt.hash(password, 10);
 
-    const user = await User.create({ 
-      loginId, 
-      password: hashedPassword, 
-      status 
+    const user = await User.create({
+      loginId,
+      password: hashedPassword,
+      status
     });
 
     res.status(201).json({ message: 'User created successfully', data: user });
@@ -69,7 +70,12 @@ const createUser = async (req, res) => {
 // Get all users
 const getAllUsers = async (req, res) => {
   try {
-    const users = await User.findAll();
+    const users = await User.findAll({
+      include: [
+        "rider",
+        "merchant",
+      ]
+    });
     res.status(200).json({ data: users });
   } catch (error) {
     console.error('Error fetching users:', error);
@@ -81,7 +87,10 @@ const getAllUsers = async (req, res) => {
 const getUserById = async (req, res) => {
   try {
     const { id } = req.params;
-    const user = await User.findByPk(id);
+    const user = await User.findByPk(id,{include: [
+      "rider",
+      "merchant",
+    ]});
 
     if (!user) {
       return res.status(404).json({ message: 'User not found' });

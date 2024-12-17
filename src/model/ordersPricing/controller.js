@@ -1,10 +1,10 @@
-const OrderPrice  = require('..').orderPrice; // Adjust the path to your models
+const OrderPrice = require('..').orderPrice; // Adjust the path to your models
 
 // Create a new order price
 const createOrderPrice = async (req, res) => {
   try {
-    const { price, priceStatus, isActive } = req.body;
-    const orderPrice = await OrderPrice.create({ price, priceStatus, isActive });
+    const { price, priceStatus, isActive, riderId, merchantId, orderId } = req.body;
+    const orderPrice = await OrderPrice.create({ price, priceStatus, isActive, riderId, merchantId, orderId });
     res.status(201).json({ message: 'Order price created successfully', data: orderPrice });
   } catch (error) {
     console.error('Error creating order price:', error);
@@ -15,7 +15,7 @@ const createOrderPrice = async (req, res) => {
 // Get all order prices
 const getAllOrderPrices = async (req, res) => {
   try {
-    const orderPrices = await OrderPrice.findAll();
+    const orderPrices = await OrderPrice.findAll({ include: ['rider', 'merchant'] });
     res.status(200).json({ data: orderPrices });
   } catch (error) {
     console.error('Error fetching order prices:', error);

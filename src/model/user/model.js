@@ -8,11 +8,6 @@ module.exports = (sequelize,DataTypes) => {
       password: {
         type: DataTypes.STRING,
         allowNull: false,
-        unique: true,
-        validate: {
-          isNumeric: true,
-          len: [10, 15], // Validates length for a phone number
-        },
       },
       status: {
         type: DataTypes.ENUM('active', 'inactive', 'on_trip'),

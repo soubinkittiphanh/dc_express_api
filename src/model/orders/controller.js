@@ -1,4 +1,7 @@
-const  OrderTable  = require('..').orders; // Adjust the path to your models
+const OrderTable = require('..').orders; // Adjust the path to your models
+const OrderPrice = require('..').orderPrice; // Adjust the path to your models
+const Rider = require('..').rider; // Adjust the path to your models
+const Merchant = require('..').merchant; // Adjust the path to your models
 
 // Create a new order
 const createOrder = async (req, res) => {
@@ -14,7 +17,20 @@ const createOrder = async (req, res) => {
 // Get all orders
 const getAllOrders = async (req, res) => {
   try {
-    const orders = await OrderTable.findAll();
+    const orders = await OrderTable.findAll({
+      include: [{
+        model: OrderPrice,
+        as: 'orderPrices', // Specify the alias used in the association
+        include: [
+          { model: Rider, as: 'rider' },
+          { model: Merchant, as: 'merchant' },
+        ]
+      }, {
+        model: Merchant,
+        as: 'merchant'
+      }
+      ]
+    });
     res.status(200).json({ data: orders });
   } catch (error) {
     console.error('Error fetching orders:', error);

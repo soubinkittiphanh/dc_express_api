@@ -13,7 +13,12 @@ const startApp = async () => {
         logger.info("app is runing: " + env.port || 4000);
         logger.warn("env: " + env.db.database);
     }).setTimeout(0)
+    app.use("/api",myRouter.authRouter)
     app.use("/api/rider",myRouter.riderRouter)
+    app.use("/api/user",myRouter.userRouter)
+    app.use("/api/order",myRouter.orderRouter)
+    app.use("/api",myRouter.orderPriceRouter)
+    app.use("/api",myRouter.merchantPriceRouter)
 
 }
 startApp();

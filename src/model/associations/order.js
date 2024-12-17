@@ -1,8 +1,5 @@
 module.exports = (db)=>{
-    db.orderPrice.belongsTo(db.orders, {
-        foreignKey: 'orderId',
-        as: 'orderTable'
-    })
+
     db.orders.belongsTo(db.merchant, {
         foreignKey: 'merchantId',
         as: 'merchant'
@@ -12,7 +9,8 @@ module.exports = (db)=>{
         as: 'rider'
     })
     db.orders.hasMany(db.orderPrice, {
-        as: 'priceList'
+        foreignKey: 'orderId',
+        as: 'orderPrices'
     })
 
 }

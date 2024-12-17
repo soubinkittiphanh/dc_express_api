@@ -1,6 +1,11 @@
 module.exports = (db)=>{
-    db.kyc.belongsTo(db.rider, {
-        foreignKey: 'riderId',
-        as: 'rider'
+    db.kyc.belongsTo(db.user, {
+        foreignKey: 'userId',
+        as: 'user'
     })
+    db.kyc.hasMany(db.image, {
+        foreignKey: 'kycId',
+        as: 'images'
+    })
+
 }

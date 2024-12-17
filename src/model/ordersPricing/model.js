@@ -4,7 +4,7 @@
 module.exports = (sequelize, DataTypes) => {
     const OrderPrice = sequelize.define('orderPrice', {
         price: {
-            type: DataTypes.STRING,
+            type: DataTypes.DOUBLE,
             allowNull: false,
         },
         priceStatus: {
