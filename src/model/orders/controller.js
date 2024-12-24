@@ -2,12 +2,55 @@ const OrderTable = require('..').orders; // Adjust the path to your models
 const OrderPrice = require('..').orderPrice; // Adjust the path to your models
 const Rider = require('..').rider; // Adjust the path to your models
 const Merchant = require('..').merchant; // Adjust the path to your models
+const Image = require('..').image; // Adjust the path to your models
+
+const logger = require('../../api/logger');
 
 // Create a new order
+// const createOrder = async (req, res) => {
+//   try {
+//     const order = await OrderTable.create(req.body);
+//     res.status(201).json({ message: 'Order created successfully', data: order });
+//   } catch (error) {
+//     console.error('Error creating order:', error);
+//     res.status(400).json({ error: error.message });
+//   }
+// };
+
+
+
 const createOrder = async (req, res) => {
+   // Log the received order details and images
+   console.log('Received Order Details:', req.body.orderDetails);
+   console.log('Received Files:', req.files);
   try {
-    const order = await OrderTable.create(req.body);
-    res.status(201).json({ message: 'Order created successfully', data: order });
+    // Parse the uploaded files and create the order
+      const { body, files } = req;
+      logger.info(`JSON DATA ${body.orderDetails}`)
+      logger.info(`FILE DATA ${req.files}`)
+ 
+
+      const orderDetails = JSON.parse(req.body.orderDetails);
+      // Create the order
+      const order = await OrderTable.create(orderDetails);
+
+      // Store associated images
+      if (files && files.length > 0) {
+        const imageRecords = files.map((file) => ({
+          name: file.originalname,
+          path: file.path,
+          orderId: order.id,
+        }));
+
+        await Image.bulkCreate(imageRecords); // Save all images
+      }
+
+      res.status(201).json({
+        message: 'Order created successfully',
+        data: order,
+        images: files ? files.map((file) => file.path) : [],
+      });
+
   } catch (error) {
     console.error('Error creating order:', error);
     res.status(400).json({ error: error.message });

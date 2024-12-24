@@ -1428,3 +1428,251 @@
 {"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-17T12:54:34.734Z"}
 {"level":"info","message":"client_db Connection established","timestamp":"2024-12-17T12:54:34.916Z"}
 {"level":"info","message":"Database client is synchronized","timestamp":"2024-12-17T12:54:37.385Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-24T06:02:25.341Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-24T06:02:25.343Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-24T06:02:25.344Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-24T06:02:25.344Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-24T06:02:25.345Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-24T06:02:26.424Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-24T06:02:26.425Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-24T06:02:26.425Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2024-12-24T06:02:26.598Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2024-12-24T06:02:29.432Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-24T06:26:48.020Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-24T06:26:48.022Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-24T06:26:48.023Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-24T06:26:48.023Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-24T06:26:48.023Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-24T06:26:50.751Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-24T06:26:50.752Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-24T06:26:50.753Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2024-12-24T06:26:50.953Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-24T06:28:01.230Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-24T06:28:01.233Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-24T06:28:01.234Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-24T06:28:01.234Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-24T06:28:01.237Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-24T06:28:03.804Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-24T06:28:03.805Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-24T06:28:03.805Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2024-12-24T06:28:04.005Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2024-12-24T06:28:06.392Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-24T06:29:02.259Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-24T06:29:02.261Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-24T06:29:02.262Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-24T06:29:02.263Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-24T06:29:02.264Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-24T06:29:05.448Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-24T06:29:05.455Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-24T06:29:05.456Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2024-12-24T06:29:05.710Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2024-12-24T06:29:08.229Z"}
+{"level":"info","message":"Received file type: application/octet-stream","timestamp":"2024-12-24T06:29:11.639Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-24T06:30:35.717Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-24T06:30:35.719Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-24T06:30:35.720Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-24T06:30:35.720Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-24T06:30:35.721Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-24T06:30:36.442Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-24T06:30:36.443Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-24T06:30:36.444Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2024-12-24T06:30:36.628Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2024-12-24T06:30:39.407Z"}
+{"level":"info","message":"Received file type: application/octet-stream","timestamp":"2024-12-24T06:30:55.157Z"}
+{"level":"error","message":"Error uploading images: Only image files are allowed!","timestamp":"2024-12-24T06:30:55.166Z"}
+{"level":"info","message":"Received file type: application/octet-stream","timestamp":"2024-12-24T06:30:55.203Z"}
+{"level":"error","message":"Error uploading images: Only image files are allowed!","timestamp":"2024-12-24T06:30:55.207Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-24T06:33:51.973Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-24T06:33:51.975Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-24T06:33:51.976Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-24T06:33:51.976Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-24T06:33:51.977Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-24T06:33:52.612Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-24T06:33:52.613Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-24T06:33:52.614Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2024-12-24T06:33:52.785Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2024-12-24T06:33:55.019Z"}
+{"level":"info","message":"Received file type: application/octet-stream","timestamp":"2024-12-24T06:34:00.612Z"}
+{"level":"error","message":"Error uploading images: Only image files are allowed!","timestamp":"2024-12-24T06:34:00.618Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-24T06:40:15.045Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-24T06:40:15.048Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-24T06:40:15.048Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-24T06:40:15.049Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-24T06:40:15.049Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-24T06:40:16.623Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-24T06:40:16.624Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-24T06:40:16.624Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2024-12-24T06:40:16.829Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2024-12-24T06:40:19.165Z"}
+{"level":"info","message":"Received file type: application/octet-stream","timestamp":"2024-12-24T06:40:29.557Z"}
+{"level":"info","message":"JSON DATA {\"recipientTel\":\"77998833\",\"recipientTelName\":\"Anolo\",\"recipientAddress\":\"Address\",\"riderFee\":30000.0,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1}","timestamp":"2024-12-24T06:40:29.580Z"}
+{"level":"info","message":"FILE DATA ","timestamp":"2024-12-24T06:40:29.585Z"}
+{"level":"error","message":"Error uploading images: Only image files are allowed!","timestamp":"2024-12-24T06:40:29.586Z"}
+{"level":"info","message":"Received file type: application/octet-stream","timestamp":"2024-12-24T06:40:29.733Z"}
+{"level":"info","message":"JSON DATA {\"recipientTel\":\"77998833\",\"recipientTelName\":\"Anolo\",\"recipientAddress\":\"Address\",\"riderFee\":30000.0,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1}","timestamp":"2024-12-24T06:40:29.736Z"}
+{"level":"info","message":"FILE DATA ","timestamp":"2024-12-24T06:40:29.736Z"}
+{"level":"error","message":"Error uploading images: Only image files are allowed!","timestamp":"2024-12-24T06:40:29.737Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-24T06:43:16.551Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-24T06:43:16.554Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-24T06:43:16.554Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-24T06:43:16.554Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-24T06:43:16.555Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-24T06:43:17.171Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-24T06:43:17.172Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-24T06:43:17.173Z"}
+{"level":"error","message":"client_db Connection error: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1002ms","name":"SequelizeConnectionError","original":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1002ms","sqlState":"08S01"},"parent":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1002ms","sqlState":"08S01"},"stack":"SequelizeConnectionError: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1002ms\n    at ConnectionManager.connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js:100:17)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async ConnectionManager._connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n    at async /Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32","timestamp":"2024-12-24T06:43:18.170Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-24T06:43:20.088Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-24T06:43:20.090Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-24T06:43:20.091Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-24T06:43:20.092Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-24T06:43:20.092Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-24T06:43:20.492Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-24T06:43:20.493Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-24T06:43:20.493Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2024-12-24T06:43:21.614Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2024-12-24T06:43:25.037Z"}
+{"level":"info","message":"Received file type: application/octet-stream","timestamp":"2024-12-24T06:43:31.952Z"}
+{"level":"info","message":"JSON DATA {\"recipientTel\":\"77998833\",\"recipientTelName\":\"Anolo\",\"recipientAddress\":\"Address\",\"riderFee\":30000.0,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1}","timestamp":"2024-12-24T06:43:31.972Z"}
+{"level":"info","message":"FILE DATA ","timestamp":"2024-12-24T06:43:31.974Z"}
+{"level":"error","message":"Error uploading images: Only image files are allowed!","timestamp":"2024-12-24T06:43:31.975Z"}
+{"level":"info","message":"Received file type: application/octet-stream","timestamp":"2024-12-24T06:43:32.910Z"}
+{"level":"info","message":"JSON DATA {\"recipientTel\":\"77998833\",\"recipientTelName\":\"Anolo\",\"recipientAddress\":\"Address\",\"riderFee\":30000.0,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1}","timestamp":"2024-12-24T06:43:33.621Z"}
+{"level":"info","message":"FILE DATA ","timestamp":"2024-12-24T06:43:33.622Z"}
+{"level":"error","message":"Error uploading images: Only image files are allowed!","timestamp":"2024-12-24T06:43:33.622Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-24T06:52:42.564Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-24T06:52:42.567Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-24T06:52:42.568Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-24T06:52:42.568Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-24T06:52:42.569Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-24T06:52:44.032Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-24T06:52:44.033Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-24T06:52:44.034Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2024-12-24T06:52:44.240Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2024-12-24T06:52:46.569Z"}
+{"level":"info","message":"JSON DATA undefined","timestamp":"2024-12-24T06:53:12.277Z"}
+{"level":"info","message":"FILE DATA ","timestamp":"2024-12-24T06:53:12.280Z"}
+{"level":"error","message":"Error uploading images: Unexpected field","timestamp":"2024-12-24T06:53:12.282Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-24T07:02:33.541Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-24T07:02:33.543Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-24T07:02:33.544Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-24T07:02:33.544Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-24T07:02:33.545Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-24T07:02:34.161Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-24T07:02:34.162Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-24T07:02:34.163Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2024-12-24T07:02:34.350Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2024-12-24T07:02:36.927Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-24T07:02:44.444Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-24T07:02:44.446Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-24T07:02:44.447Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-24T07:02:44.447Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-24T07:02:44.447Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-24T07:02:45.040Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-24T07:02:45.041Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-24T07:02:45.041Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2024-12-24T07:02:45.237Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2024-12-24T07:02:48.327Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-24T07:03:29.154Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-24T07:03:29.157Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-24T07:03:29.158Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-24T07:03:29.158Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-24T07:03:29.158Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-24T07:03:30.992Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-24T07:03:30.994Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-24T07:03:30.995Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2024-12-24T07:03:31.167Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2024-12-24T07:03:33.910Z"}
+{"level":"info","message":"Request Headers: {\"user-agent\":\"Dart/2.19 (dart:io)\",\"accept\":\"application/json\",\"accept-encoding\":\"gzip\",\"content-length\":\"45742\",\"host\":\"192.168.1.3:8888\",\"authorization\":\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibG9naW5JZCI6ImRjb21tZXJjZSIsInN0YXR1cyI6ImFjdGl2ZSIsImlhdCI6MTczNTAyMDY2OCwiZXhwIjoxNzM1MDI0MjY4fQ.Hzi7VONQslQpOVr6UEWw57CLZB3B_XdL33aeP2-DZyQ\",\"content-type\":\"multipart/form-data; boundary=dart-http-boundary-o0AWrPdqbUF7HhYqKwVefHPyT3.wsZ66l5.MYAYb361xLC89HzR\"}","timestamp":"2024-12-24T07:03:51.141Z"}
+{"level":"info","message":"Request Body: {}","timestamp":"2024-12-24T07:03:51.148Z"}
+{"level":"info","message":"Request Files: undefined","timestamp":"2024-12-24T07:03:51.150Z"}
+{"level":"info","message":"Received file type: application/octet-stream","timestamp":"2024-12-24T07:03:51.237Z"}
+{"level":"info","message":"Request Headers: {\"user-agent\":\"Dart/2.19 (dart:io)\",\"accept\":\"application/json\",\"accept-encoding\":\"gzip\",\"content-length\":\"45742\",\"host\":\"192.168.1.3:8888\",\"authorization\":\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibG9naW5JZCI6ImRjb21tZXJjZSIsInN0YXR1cyI6ImFjdGl2ZSIsImlhdCI6MTczNTAyMDY2OCwiZXhwIjoxNzM1MDI0MjY4fQ.Hzi7VONQslQpOVr6UEWw57CLZB3B_XdL33aeP2-DZyQ\",\"content-type\":\"multipart/form-data; boundary=dart-http-boundary-D.aKcbSoDDqaWQQH-REtrgwhgcv6FrEJnugh1JODwxegqee7v75\"}","timestamp":"2024-12-24T07:03:51.262Z"}
+{"level":"info","message":"Request Body: {}","timestamp":"2024-12-24T07:03:51.264Z"}
+{"level":"info","message":"Request Files: undefined","timestamp":"2024-12-24T07:03:51.264Z"}
+{"level":"info","message":"Received file type: application/octet-stream","timestamp":"2024-12-24T07:03:51.324Z"}
+{"level":"info","message":"Request Headers: {\"authorization\":\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibG9naW5JZCI6ImRjb21tZXJjZSIsInN0YXR1cyI6ImFjdGl2ZSIsImlhdCI6MTczNTAyMDg3OCwiZXhwIjoxNzM1MDI0NDc4fQ.5Q1vWFKmsp97iFKeqzR5QzEROGEKQUSxPNLiFIsDKxM\",\"user-agent\":\"PostmanRuntime/7.43.0\",\"accept\":\"*/*\",\"postman-token\":\"ad489cf3-2dfe-40a0-82ed-8f1a05ffd5b7\",\"host\":\"192.168.1.3:8888\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\",\"content-type\":\"multipart/form-data; boundary=--------------------------324903523472981414646152\",\"content-length\":\"17150\"}","timestamp":"2024-12-24T07:04:39.342Z"}
+{"level":"info","message":"Request Body: {}","timestamp":"2024-12-24T07:04:39.344Z"}
+{"level":"info","message":"Request Files: undefined","timestamp":"2024-12-24T07:04:39.345Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-24T07:05:09.241Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-24T07:05:09.243Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-24T07:05:09.244Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-24T07:05:09.244Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-24T07:05:09.245Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-24T07:05:09.926Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-24T07:05:09.927Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-24T07:05:09.928Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2024-12-24T07:05:10.099Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2024-12-24T07:05:12.344Z"}
+{"level":"info","message":"Received file type: image/png","timestamp":"2024-12-24T07:08:15.809Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-24T07:08:47.777Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-24T07:08:47.779Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-24T07:08:47.780Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-24T07:08:47.780Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-24T07:08:47.781Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-24T07:08:48.451Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-24T07:08:48.452Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-24T07:08:48.453Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2024-12-24T07:08:48.617Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2024-12-24T07:08:50.895Z"}
+{"level":"info","message":"Received file type: image/png","timestamp":"2024-12-24T07:08:55.058Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-24T07:09:14.565Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-24T07:09:14.567Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-24T07:09:14.568Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-24T07:09:14.568Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-24T07:09:14.568Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-24T07:09:15.117Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-24T07:09:15.118Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-24T07:09:15.119Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2024-12-24T07:09:15.295Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2024-12-24T07:09:17.985Z"}
+{"level":"info","message":"Received file type: image/png","timestamp":"2024-12-24T07:09:20.590Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-24T07:10:15.827Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-24T07:10:15.829Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-24T07:10:15.831Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-24T07:10:15.831Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-24T07:10:15.832Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-24T07:10:16.386Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-24T07:10:16.386Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-24T07:10:16.387Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2024-12-24T07:10:16.728Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2024-12-24T07:10:19.008Z"}
+{"level":"info","message":"Received file type: image/png","timestamp":"2024-12-24T07:10:29.349Z"}
+{"level":"info","message":"JSON DATA {\n  \"recipientTel\": \"774629433\",\n  \"recipientTelName\": \"Siyoun\",\n  \"recipientAddress\": \"Dongdok, VTE LAOS\",\n  \"riderFee\": 50000.0,\n  \"status\": \"OPEN\",\n  \"productCategory\": \"OTHER\",\n  \"isActive\": true,\n  \"merchantId\":2,\n  \"riderId\":null\n}","timestamp":"2024-12-24T07:10:29.362Z"}
+{"level":"info","message":"FILE DATA [object Object]","timestamp":"2024-12-24T07:10:29.364Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-24T07:10:47.111Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-24T07:10:47.113Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-24T07:10:47.114Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-24T07:10:47.114Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-24T07:10:47.114Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-24T07:10:47.705Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-24T07:10:47.706Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-24T07:10:47.707Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2024-12-24T07:10:47.928Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2024-12-24T07:10:50.888Z"}
+{"level":"info","message":"Received file type: image/png","timestamp":"2024-12-24T07:10:52.059Z"}
+{"level":"info","message":"JSON DATA {\n  \"recipientTel\": \"774629433\",\n  \"recipientTelName\": \"Siyoun\",\n  \"recipientAddress\": \"Dongdok, VTE LAOS\",\n  \"riderFee\": 50000.0,\n  \"status\": \"OPEN\",\n  \"productCategory\": \"OTHER\",\n  \"isActive\": true,\n  \"merchantId\":2,\n  \"riderId\":null\n}","timestamp":"2024-12-24T07:10:52.072Z"}
+{"level":"info","message":"FILE DATA [object Object]","timestamp":"2024-12-24T07:10:52.073Z"}
+{"level":"info","message":"Received file type: application/octet-stream","timestamp":"2024-12-24T07:15:49.150Z"}
+{"level":"info","message":"Received file type: application/octet-stream","timestamp":"2024-12-24T07:16:29.646Z"}
+{"level":"info","message":"Received file type: application/octet-stream","timestamp":"2024-12-24T07:19:12.642Z"}
+{"level":"info","message":"Received file type: image/jpeg","timestamp":"2024-12-24T07:21:35.752Z"}
+{"level":"info","message":"JSON DATA {\"recipientTel\":\"774777239\",\"recipientTelName\":\"kola\",\"recipientAddress\":\"xiengngern\",\"riderFee\":30000.0,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1}","timestamp":"2024-12-24T07:21:35.831Z"}
+{"level":"info","message":"FILE DATA [object Object]","timestamp":"2024-12-24T07:21:35.840Z"}
+{"level":"info","message":"Received file type: image/jpeg","timestamp":"2024-12-24T07:21:55.894Z"}
+{"level":"info","message":"JSON DATA {\"recipientTel\":\"774777239\",\"recipientTelName\":\"kola\",\"recipientAddress\":\"xiengngern\",\"riderFee\":30000.0,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1}","timestamp":"2024-12-24T07:21:55.913Z"}
+{"level":"info","message":"FILE DATA [object Object]","timestamp":"2024-12-24T07:21:55.914Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2024-12-24T07:22:26.403Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2024-12-24T07:22:26.405Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2024-12-24T07:22:26.406Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2024-12-24T07:22:26.406Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2024-12-24T07:22:26.407Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2024-12-24T07:22:28.436Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2024-12-24T07:22:28.438Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2024-12-24T07:22:28.439Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2024-12-24T07:22:28.770Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2024-12-24T07:22:31.116Z"}
+{"level":"info","message":"Received file type: image/jpeg","timestamp":"2024-12-24T07:22:40.283Z"}
+{"level":"info","message":"JSON DATA {\"recipientTel\":\"774777239\",\"recipientTelName\":\"kola\",\"recipientAddress\":\"xiengngern\",\"riderFee\":30000.0,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1}","timestamp":"2024-12-24T07:22:40.323Z"}
+{"level":"info","message":"FILE DATA [object Object]","timestamp":"2024-12-24T07:22:40.326Z"}
+{"level":"info","message":"JSON DATA {\"recipientTel\":\"774777239\",\"recipientTelName\":\"Xwell\",\"recipientAddress\":\"xiengngern\",\"riderFee\":10000.0,\"status\":\"OPEN\",\"productCategory\":\"OTHER\",\"isActive\":true,\"merchantId\":1}","timestamp":"2024-12-24T07:25:39.993Z"}
+{"level":"info","message":"FILE DATA ","timestamp":"2024-12-24T07:25:40.002Z"}
