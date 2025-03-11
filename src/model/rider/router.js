@@ -4,7 +4,7 @@ const express = require("express")
 const router = express.Router()
 const {validateToken} = require('../../api').jwtApi
 const { body } = require('express-validator');
-router.use(validateToken);
+// router.use(validateToken);
 
 // const validationRulesCreate = [
 //     body('twoDigits').isFloat({ min: 0 }).withMessage('Two digits must be a positive number'),

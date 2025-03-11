@@ -23,9 +23,23 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.ENUM('OPEN','PRICING', 'ACCEPT', 'DELIVERING', 'COMPLETE','CANCEL','OTHER'),
             allowNull: false
         },
+        orderAddress: {
+            type: DataTypes.STRING,
+        },
+        orderLongitude: {
+            type: DataTypes.STRING,
+        },
+        orderLutitude: {
+            type: DataTypes.STRING,
+        },
         productCategory: {
             type: DataTypes.ENUM('FOOD', 'DOCUMENT', 'OTHER'),
             allowNull: false
+        },
+        payment: {
+            type: DataTypes.ENUM('CASH', 'COD', 'QR'),
+            allowNull: false,
+            defaultValue: 'CASH'
         },
         isActive: {
             type: DataTypes.BOOLEAN,

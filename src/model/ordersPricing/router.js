@@ -8,6 +8,7 @@ router.post('/order-prices', orderPriceController.createOrderPrice);
 router.get('/order-prices', orderPriceController.getAllOrderPrices);
 router.get('/order-prices/:id', orderPriceController.getOrderPriceById);
 router.put('/order-prices/:id', orderPriceController.updateOrderPrice);
+router.put('/order-prices/accept/:id', orderPriceController.acceptOrderPrice);
 router.delete('/order-prices/:id', orderPriceController.deleteOrderPrice);
 
 module.exports = router;
