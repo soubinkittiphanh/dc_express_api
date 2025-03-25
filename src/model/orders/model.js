@@ -5,11 +5,11 @@ module.exports = (sequelize, DataTypes) => {
     const OrderTable = sequelize.define('orderTable', {
         recipientTel: {
             type: DataTypes.STRING,
-            allowNull: false,
+            allowNull: true,
         },
         recipientTelName: {
             type: DataTypes.STRING,
-            allowNull: false,
+            allowNull: true,
         },
         recipientAddress: {
             type: DataTypes.STRING,
@@ -28,9 +28,11 @@ module.exports = (sequelize, DataTypes) => {
         },
         orderLongitude: {
             type: DataTypes.STRING,
+            defaultValue: '0'
         },
         orderLutitude: {
             type: DataTypes.STRING,
+            defaultValue: '0'
         },
         productCategory: {
             type: DataTypes.ENUM('FOOD', 'DOCUMENT', 'OTHER'),

@@ -72,7 +72,8 @@ const getAllOrders = async (req, res) => {
         model: Merchant,
         as: 'merchant'
       }
-      ]
+      ],
+      order: [['id', 'DESC']] // Orders by ID in descendin
     });
     res.status(200).json({ data: orders });
   } catch (error) {
