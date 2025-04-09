@@ -12,5 +12,9 @@ module.exports = (db)=>{
         foreignKey: 'orderId',
         as: 'orderPrices'
     })
+    db.orders.hasMany(db.image, {
+        foreignKey: 'orderId',
+        as: 'images'
+    })
 
 }

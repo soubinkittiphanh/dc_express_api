@@ -29,15 +29,15 @@ const createUser = async (req, res) => {
 const registration = async (req, res) => {
     const t = await sequelizeDCExpress.transaction(); // Start a transaction
     try {
-        const { loginId, password, status, customerType, additionalData } = req.body;
+        const { loginId, password, status, customerType, additionalData, rider, merchant } = req.body;
 
         if (!customerType || !['Rider', 'Merchant'].includes(customerType)) {
             return res.status(400).json({ error: 'Invalid customerType. Must be "Rider" or "Merchant".' });
         }
 
-        if (!additionalData) {
-            return res.status(400).json({ error: 'Missing additionalData for customer type.' });
-        }
+        // if (!additionalData) {
+        //     return res.status(400).json({ error: 'Missing additionalData for customer type.' });
+        // }
 
         // Hash the password before saving
         const hashedPassword = await bcrypt.hash(password, 10);
@@ -50,34 +50,34 @@ const registration = async (req, res) => {
 
         let profile;
 
-        if (customerType === 'Rider') {
-            profile = await Rider.create(
-                {
-                    userId: user.id, // Associate Rider with User
-                    name: additionalData.name,
-                    phone: additionalData.phone,
-                    email: additionalData.email || null, // Ensure it's null-safe
-                    address: additionalData.address,
-                    vehicleType: additionalData.vehicleType,
-                    licenseNumber: additionalData.licenseNumber || null,
-                    status: 'inactive',
-                },
-                { transaction: t, returning: true }
-            );
-        } else if (customerType === 'Merchant') {
-            profile = await Merchant.create(
-                {
-                    userId: user.id, // Associate Merchant with User
-                    shopName: additionalData.shopName,
-                    whatsapp: additionalData.whatsapp,
-                    address: additionalData.address,
-                    latitude: additionalData.latitude || null,
-                    longitude: additionalData.longitude || null,
-                    serviceStatus: additionalData.serviceStatus || 'open',
-                },
-                { transaction: t, returning: true }
-            );
-        }
+        // if (customerType === 'Rider') {
+        profile = await Rider.create(
+            {
+                userId: user.id, // Associate Rider with User
+                name: rider.name,
+                phone: rider.phone,
+                email: rider.email || null, // Ensure it's null-safe
+                address: rider.address,
+                vehicleType: rider.vehicleType,
+                licenseNumber: rider.licenseNumber || null,
+                status: 'inactive',
+            },
+            { transaction: t, returning: true }
+        );
+        // } else if (customerType === 'Merchant') {
+        profile = await Merchant.create(
+            {
+                userId: user.id, // Associate Merchant with User
+                shopName: merchant.shopName,
+                whatsapp: merchant.whatsapp,
+                address: merchant.address,
+                latitude: merchant.latitude || null,
+                longitude: merchant.longitude || null,
+                serviceStatus: merchant.serviceStatus || 'open',
+            },
+            { transaction: t, returning: true }
+        );
+        // }
 
         // If everything is successful, commit the transaction
         await t.commit();

@@ -8,8 +8,9 @@ const jwt = require('jsonwebtoken');
 // Login a user
 const loginUser = async (req, res) => {
   try {
-    const { loginId, password } = req.body;
-
+    const currentVersion = '1.0.1';
+    const { loginId, password,version } = req.body;
+    if(currentVersion!=version)return res.status(404).json({ message: 'Please update version' });
     // Find the user by loginId
     const user = await User.findOne({ where: { loginId } });
 

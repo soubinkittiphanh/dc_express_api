@@ -67,11 +67,13 @@ const getAllOrders = async (req, res) => {
         include: [
           { model: Rider, as: 'rider' },
           { model: Merchant, as: 'merchant' },
+          
         ]
       }, {
         model: Merchant,
         as: 'merchant'
-      }
+      },
+      { model: Image, as: 'images' },
       ],
       order: [['id', 'DESC']] // Orders by ID in descendin
     });
@@ -98,7 +100,8 @@ const getOrderById = async (req, res) => {
         }, {
           model: Merchant,
           as: 'merchant'
-        }
+        },
+        { model: Image, as: 'images' },
         ]
     });
 

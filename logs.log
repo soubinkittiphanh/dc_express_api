@@ -2601,3 +2601,214 @@
 {"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-03-25T04:05:16.171Z"}
 {"level":"info","message":"client_db Connection established","timestamp":"2025-03-25T04:05:16.890Z"}
 {"level":"info","message":"Database client is synchronized","timestamp":"2025-03-25T04:05:27.779Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-03-25T04:48:20.801Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-03-25T04:48:20.803Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-03-25T04:48:20.804Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-03-25T04:48:20.804Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-03-25T04:48:20.805Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-03-25T04:48:21.475Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-03-25T04:48:21.476Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-03-25T04:48:21.477Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-03-25T04:48:22.698Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-03-25T04:48:32.196Z"}
+{"level":"info","message":"JSON DATA {\"recipientTel\":\"7749390040\",\"recipientTelName\":\"Nori\",\"recipientAddress\":\"Lak122\",\"riderFee\":30000.0,\"status\":\"OPEN\",\"productCategory\":\"DOCUMENT\",\"isActive\":true,\"merchantId\":3,\"orderAddress\":\"pickup address\",\"orderLongitude\":\"\",\"orderLutitude\":\"\"}","timestamp":"2025-03-25T05:30:41.160Z"}
+{"level":"info","message":"FILE DATA ","timestamp":"2025-03-25T05:30:41.185Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-03-27T12:01:58.384Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-03-27T12:01:58.386Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-03-27T12:01:58.387Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-03-27T12:01:58.387Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-03-27T12:01:58.388Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-03-27T12:01:59.073Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-03-27T12:01:59.074Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-03-27T12:01:59.075Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-03-27T12:01:59.693Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-03-27T12:02:04.771Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-03-27T12:11:03.553Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-03-27T12:11:03.556Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-03-27T12:11:03.557Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-03-27T12:11:03.557Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-03-27T12:11:03.558Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-03-27T12:11:04.187Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-03-27T12:11:04.188Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-03-27T12:11:04.189Z"}
+{"level":"error","message":"client_db Connection error: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1002ms","name":"SequelizeConnectionError","original":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1002ms","sqlState":"08S01"},"parent":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1002ms","sqlState":"08S01"},"stack":"SequelizeConnectionError: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1002ms\n    at ConnectionManager.connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js:100:17)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async ConnectionManager._connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n    at async /Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32","timestamp":"2025-03-27T12:11:05.187Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-03-27T12:11:30.732Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-03-27T12:11:30.735Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-03-27T12:11:30.735Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-03-27T12:11:30.736Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-03-27T12:11:30.736Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-03-27T12:11:31.245Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-03-27T12:11:31.247Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-03-27T12:11:31.247Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-03-27T12:11:31.444Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-03-27T12:11:36.398Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-03-27T12:28:28.116Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-03-27T12:28:28.118Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-03-27T12:28:28.119Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-03-27T12:28:28.120Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-03-27T12:28:28.121Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-03-27T12:28:29.310Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-03-27T12:28:29.310Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-03-27T12:28:29.311Z"}
+{"level":"error","message":"client_db Connection error: (conn:-1, no: 1040, SQLState: HY000) Too many connections","name":"SequelizeConnectionError","original":{"code":"ER_CON_COUNT_ERROR","errno":1040,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Too many connections","sqlState":"HY000"},"parent":{"code":"ER_CON_COUNT_ERROR","errno":1040,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Too many connections","sqlState":"HY000"},"stack":"SequelizeConnectionError: (conn:-1, no: 1040, SQLState: HY000) Too many connections\n    at ConnectionManager.connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js:100:17)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async ConnectionManager._connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n    at async /Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32","timestamp":"2025-03-27T12:28:29.345Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-03-27T12:28:35.016Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-03-27T12:28:35.018Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-03-27T12:28:35.019Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-03-27T12:28:35.019Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-03-27T12:28:35.020Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-03-27T12:28:35.747Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-03-27T12:28:35.748Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-03-27T12:28:35.749Z"}
+{"level":"error","message":"client_db Connection error: (conn:-1, no: 1040, SQLState: HY000) Too many connections","name":"SequelizeConnectionError","original":{"code":"ER_CON_COUNT_ERROR","errno":1040,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Too many connections","sqlState":"HY000"},"parent":{"code":"ER_CON_COUNT_ERROR","errno":1040,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Too many connections","sqlState":"HY000"},"stack":"SequelizeConnectionError: (conn:-1, no: 1040, SQLState: HY000) Too many connections\n    at ConnectionManager.connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js:100:17)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async ConnectionManager._connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n    at async /Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32","timestamp":"2025-03-27T12:28:35.847Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-03-27T12:28:48.934Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-03-27T12:28:48.936Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-03-27T12:28:48.937Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-03-27T12:28:48.938Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-03-27T12:28:48.938Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-03-27T12:28:49.866Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-03-27T12:28:49.867Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-03-27T12:28:49.868Z"}
+{"level":"error","message":"client_db Connection error: (conn:-1, no: 1040, SQLState: HY000) Too many connections","name":"SequelizeConnectionError","original":{"code":"ER_CON_COUNT_ERROR","errno":1040,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Too many connections","sqlState":"HY000"},"parent":{"code":"ER_CON_COUNT_ERROR","errno":1040,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Too many connections","sqlState":"HY000"},"stack":"SequelizeConnectionError: (conn:-1, no: 1040, SQLState: HY000) Too many connections\n    at ConnectionManager.connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js:100:17)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async ConnectionManager._connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n    at async /Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32","timestamp":"2025-03-27T12:28:49.930Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-03-27T12:38:19.318Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-03-27T12:38:19.320Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-03-27T12:38:19.321Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-03-27T12:38:19.321Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-03-27T12:38:19.321Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-03-27T12:38:19.966Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-03-27T12:38:19.967Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-03-27T12:38:19.969Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-03-27T12:38:20.558Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-03-27T12:38:24.526Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-03-27T12:54:08.194Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-03-27T12:54:08.196Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-03-27T12:54:08.197Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-03-27T12:54:08.197Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-03-27T12:54:08.198Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-03-27T12:54:09.268Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-03-27T12:54:09.269Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-03-27T12:54:09.270Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-03-27T12:54:09.476Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-03-27T12:54:11.976Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-03-29T13:00:14.368Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-03-29T13:00:14.370Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-03-29T13:00:14.371Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-03-29T13:00:14.371Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-03-29T13:00:14.372Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-03-29T13:00:14.978Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-03-29T13:00:14.979Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-03-29T13:00:14.980Z"}
+{"level":"error","message":"client_db Connection error: (conn:1052, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1002ms","name":"SequelizeConnectionError","original":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1002ms","sqlState":"08S01"},"parent":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1002ms","sqlState":"08S01"},"stack":"SequelizeConnectionError: (conn:1052, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1002ms\n    at ConnectionManager.connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js:100:17)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async ConnectionManager._connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n    at async /Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32","timestamp":"2025-03-29T13:00:15.981Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-03-29T13:00:21.309Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-03-29T13:00:21.311Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-03-29T13:00:21.312Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-03-29T13:00:21.312Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-03-29T13:00:21.313Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-03-29T13:00:22.061Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-03-29T13:00:22.062Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-03-29T13:00:22.062Z"}
+{"level":"error","message":"client_db Connection error: (conn:1053, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1002ms","name":"SequelizeConnectionError","original":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1002ms","sqlState":"08S01"},"parent":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1002ms","sqlState":"08S01"},"stack":"SequelizeConnectionError: (conn:1053, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1002ms\n    at ConnectionManager.connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js:100:17)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async ConnectionManager._connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n    at async /Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32","timestamp":"2025-03-29T13:00:23.064Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-03-29T13:00:27.011Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-03-29T13:00:27.013Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-03-29T13:00:27.014Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-03-29T13:00:27.014Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-03-29T13:00:27.015Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-03-29T13:00:27.556Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-03-29T13:00:27.557Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-03-29T13:00:27.558Z"}
+{"level":"error","message":"client_db Connection error: (conn:1054, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1003ms","name":"SequelizeConnectionError","original":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1003ms","sqlState":"08S01"},"parent":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1003ms","sqlState":"08S01"},"stack":"SequelizeConnectionError: (conn:1054, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1003ms\n    at ConnectionManager.connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js:100:17)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async ConnectionManager._connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n    at async /Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32","timestamp":"2025-03-29T13:00:28.562Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-03-29T13:00:41.626Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-03-29T13:00:41.628Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-03-29T13:00:41.628Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-03-29T13:00:41.629Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-03-29T13:00:41.629Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-03-29T13:00:42.219Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-03-29T13:00:42.220Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-03-29T13:00:42.221Z"}
+{"level":"error","message":"client_db Connection error: (conn:1055, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1002ms","name":"SequelizeConnectionError","original":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1002ms","sqlState":"08S01"},"parent":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1002ms","sqlState":"08S01"},"stack":"SequelizeConnectionError: (conn:1055, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1002ms\n    at ConnectionManager.connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js:100:17)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async ConnectionManager._connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n    at async /Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32","timestamp":"2025-03-29T13:00:43.223Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-03-29T13:01:31.226Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-03-29T13:01:31.228Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-03-29T13:01:31.229Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-03-29T13:01:31.229Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-03-29T13:01:31.230Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-03-29T13:01:31.876Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-03-29T13:01:31.877Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-03-29T13:01:31.877Z"}
+{"level":"error","message":"client_db Connection error: (conn:1056, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1004ms","name":"SequelizeConnectionError","original":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1004ms","sqlState":"08S01"},"parent":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1004ms","sqlState":"08S01"},"stack":"SequelizeConnectionError: (conn:1056, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1004ms\n    at ConnectionManager.connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js:100:17)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async ConnectionManager._connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n    at async /Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32","timestamp":"2025-03-29T13:01:32.882Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-03-29T13:01:39.357Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-03-29T13:01:39.359Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-03-29T13:01:39.360Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-03-29T13:01:39.360Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-03-29T13:01:39.361Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-03-29T13:01:39.963Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-03-29T13:01:39.963Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-03-29T13:01:39.964Z"}
+{"level":"error","message":"client_db Connection error: (conn:1058, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1001ms","name":"SequelizeConnectionError","original":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1001ms","sqlState":"08S01"},"parent":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1001ms","sqlState":"08S01"},"stack":"SequelizeConnectionError: (conn:1058, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1001ms\n    at ConnectionManager.connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js:100:17)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async ConnectionManager._connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)","timestamp":"2025-03-29T13:01:41.469Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-03-29T13:02:11.831Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-03-29T13:02:11.834Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-03-29T13:02:11.834Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-03-29T13:02:11.835Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-03-29T13:02:11.835Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-03-29T13:02:12.365Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-03-29T13:02:12.366Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-03-29T13:02:12.366Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-03-29T13:02:13.390Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-03-29T13:02:27.624Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-04-07T13:02:24.670Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-04-07T13:02:24.673Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-04-07T13:02:24.673Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-04-07T13:02:24.674Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-04-07T13:02:24.674Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-04-07T13:02:25.242Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-04-07T13:02:25.243Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-04-07T13:02:25.243Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-04-07T13:02:25.634Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-04-07T13:02:31.299Z"}
+{"level":"info","message":"JSON DATA {\"id\":null,\"recipientTel\":\"778899\",\"recipientTelName\":\"Test\",\"recipientAddress\":\"born song\",\"riderFee\":20000.0,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":null,\"orderLongitude\":null,\"orderLutitude\":null,\"images\":null}","timestamp":"2025-04-08T12:30:38.612Z"}
+{"level":"info","message":"FILE DATA ","timestamp":"2025-04-08T12:30:38.616Z"}
+{"level":"warn","message":"ORDER PRICE DET 1 orderId 1","timestamp":"2025-04-08T12:31:11.089Z"}
+{"level":"warn","message":"RESPONSE []","timestamp":"2025-04-08T12:31:11.108Z"}
+{"level":"info","message":"Order status has been update successfully {\"id\":1,\"recipientTel\":\"778899\",\"recipientTelName\":\"Test\",\"recipientAddress\":\"born song\",\"riderFee\":20000,\"status\":\"ACCEPT\",\"orderAddress\":null,\"orderLongitude\":null,\"orderLutitude\":null,\"productCategory\":\"FOOD\",\"payment\":\"CASH\",\"isActive\":true,\"createdAt\":\"2025-04-08T12:30:38.000Z\",\"updateTimestamp\":\"2025-04-08T12:31:11.000Z\",\"riderId\":null,\"merchantId\":1}","timestamp":"2025-04-08T12:31:11.184Z"}
+{"level":"info","message":"Order service response code 200 update count undefined update 1","timestamp":"2025-04-08T12:31:11.185Z"}
+{"level":"warn","message":"Transaction response 200","timestamp":"2025-04-08T12:31:11.202Z"}
+{"level":"info","message":"JSON DATA {\"id\":null,\"recipientTel\":\"778899\",\"recipientTelName\":\"Xomooo\",\"recipientAddress\":\"born song\",\"riderFee\":50000.0,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":null,\"orderLongitude\":null,\"orderLutitude\":null,\"images\":null}","timestamp":"2025-04-08T12:35:02.945Z"}
+{"level":"info","message":"FILE DATA ","timestamp":"2025-04-08T12:35:02.947Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-04-09T11:30:26.683Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-04-09T11:30:26.685Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-04-09T11:30:26.686Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-04-09T11:30:26.686Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-04-09T11:30:26.687Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-04-09T11:30:27.263Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-04-09T11:30:27.264Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-04-09T11:30:27.265Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-04-09T11:30:27.495Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-04-09T11:30:36.346Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-04-09T11:30:36.348Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-04-09T11:30:36.348Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-04-09T11:30:36.349Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-04-09T11:30:36.349Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-04-09T11:30:36.734Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-04-09T11:30:36.734Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-04-09T11:30:36.735Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-04-09T11:30:37.023Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-04-09T11:33:09.308Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-04-09T11:33:09.310Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-04-09T11:33:09.311Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-04-09T11:33:09.311Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-04-09T11:33:09.311Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-04-09T11:33:09.808Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-04-09T11:33:09.809Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-04-09T11:33:09.809Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-04-09T11:33:10.085Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-04-09T11:33:13.725Z"}
+{"level":"info","message":"JSON DATA {\"id\":null,\"recipientTel\":null,\"recipientTelName\":null,\"recipientAddress\":\"Non keo\",\"riderFee\":20000.0,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":2,\"orderAddress\":null,\"orderLongitude\":null,\"orderLutitude\":null,\"images\":null}","timestamp":"2025-04-09T11:36:58.451Z"}
+{"level":"info","message":"FILE DATA ","timestamp":"2025-04-09T11:36:58.453Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-04-09T11:39:11.346Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-04-09T11:39:11.348Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-04-09T11:39:11.349Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-04-09T11:39:11.349Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-04-09T11:39:11.350Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-04-09T11:39:11.855Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-04-09T11:39:11.856Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-04-09T11:39:11.857Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-04-09T11:39:12.161Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-04-09T11:39:15.245Z"}
