@@ -7,6 +7,14 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.STRING,
             allowNull: true,
         },
+        merchantTel: {
+            type: DataTypes.STRING,
+            allowNull: true,
+        },
+        note: {
+            type: DataTypes.STRING,
+            allowNull: true,
+        },
         recipientTelName: {
             type: DataTypes.STRING,
             allowNull: true,

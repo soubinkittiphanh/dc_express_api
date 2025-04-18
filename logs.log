@@ -2812,3 +2812,50 @@
 {"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-04-09T11:39:11.857Z"}
 {"level":"info","message":"client_db Connection established","timestamp":"2025-04-09T11:39:12.161Z"}
 {"level":"info","message":"Database client is synchronized","timestamp":"2025-04-09T11:39:15.245Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-04-12T00:27:02.925Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-04-12T00:27:02.927Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-04-12T00:27:02.928Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-04-12T00:27:02.928Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-04-12T00:27:02.929Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-04-12T00:27:03.544Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-04-12T00:27:03.545Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-04-12T00:27:03.546Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-04-12T00:27:03.808Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-04-12T00:29:38.286Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-04-12T00:29:38.288Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-04-12T00:29:38.289Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-04-12T00:29:38.290Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-04-12T00:29:38.290Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-04-12T00:29:39.268Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-04-12T00:29:39.269Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-04-12T00:29:39.270Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-04-12T00:29:39.480Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-04-12T00:29:43.725Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-04-17T12:24:44.043Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-04-17T12:24:44.045Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-04-17T12:24:44.045Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-04-17T12:24:44.046Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-04-17T12:24:44.046Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-04-17T12:24:44.644Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-04-17T12:24:44.644Z"}
+{"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-04-17T12:24:44.645Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-04-17T12:24:44.913Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-04-17T12:24:48.999Z"}
+{"level":"info","message":"JSON DATA {\"id\":null,\"recipientTel\":\"777483949\",\"merchantTel\":\"77848003\",\"note\":null,\"recipientTelName\":\"sooju\",\"recipientAddress\":\"Nongtaeng\",\"riderFee\":20000.0,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"None khor\",\"orderLongitude\":null,\"orderLutitude\":null,\"images\":null}","timestamp":"2025-04-17T12:35:09.606Z"}
+{"level":"info","message":"FILE DATA ","timestamp":"2025-04-17T12:35:09.609Z"}
+{"level":"info","message":"JSON DATA {\"id\":null,\"recipientTel\":\"777483949\",\"merchantTel\":\"77848003\",\"note\":null,\"recipientTelName\":\"sooju\",\"recipientAddress\":\"Nongtaeng\",\"riderFee\":20000.0,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"None khor\",\"orderLongitude\":null,\"orderLutitude\":null,\"images\":null}","timestamp":"2025-04-17T12:35:19.148Z"}
+{"level":"info","message":"FILE DATA ","timestamp":"2025-04-17T12:35:19.149Z"}
+{"level":"info","message":"JSON DATA {\"id\":null,\"recipientTel\":\"777483949\",\"merchantTel\":\"77848003\",\"note\":null,\"recipientTelName\":\"sooju\",\"recipientAddress\":\"Nongtaeng\",\"riderFee\":20000.0,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"None khor\",\"orderLongitude\":null,\"orderLutitude\":null,\"images\":null}","timestamp":"2025-04-17T12:38:25.321Z"}
+{"level":"info","message":"FILE DATA ","timestamp":"2025-04-17T12:38:25.323Z"}
+{"level":"info","message":"JSON DATA {\"id\":null,\"recipientTel\":\"7783884839\",\"merchantTel\":\"7783483349\",\"note\":\"Notessss\",\"recipientTelName\":\"Loola\",\"recipientAddress\":\"sending address\",\"riderFee\":20000.0,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"address\",\"orderLongitude\":null,\"orderLutitude\":null,\"images\":null}","timestamp":"2025-04-17T12:49:43.839Z"}
+{"level":"info","message":"FILE DATA ","timestamp":"2025-04-17T12:49:43.887Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-04-18T11:51:51.752Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-04-18T11:51:51.754Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-04-18T11:51:51.755Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-04-18T11:51:51.755Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-04-18T11:51:51.756Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-04-18T11:51:52.445Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-04-18T11:51:52.446Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-04-18T11:51:52.447Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-04-18T11:51:52.780Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-04-18T11:51:56.622Z"}
