@@ -23,6 +23,11 @@ const changeOrderStatus = async (id, status, t) => {
     }
 };
 
+
+const acceptOrder = async()=>{
+    
+}
+
 module.exports = {
     changeOrderStatus
 }

@@ -5,7 +5,7 @@ const buildApp = async () => {
     const app = express();
     app.use(cors());
     app.use(express.json());
-    app.use('/uploads', express.static('uploads'));// Link uploads folder available via static route
+    app.use('/upload', express.static('upload'));// Link uploads folder available via static route
     console.log("DIRNAME " + __dirname);
     app.get("/", (req, res) => {
         res.send("Succeed server is ready")

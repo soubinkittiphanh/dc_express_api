@@ -37,7 +37,9 @@ router.post('/create',upload.array('images'), orderController.createOrder);
 router.get('/find', orderController.getAllOrders);
 router.get('/find/:id', orderController.getOrderById);
 router.get('/find/type/:id', orderController.getOrdersByRiderOrMechant);
-router.put('/update/:id', orderController.updateOrder);
+// router.put('/update/:id', orderController.updateOrder);
+// Update with images attached
+router.put('/update/:id', upload.array('images'), orderController.updateOrder);
 router.put('/status_change/:id', orderController.updateOrderStatus);
 router.delete('/delete/:id', orderController.deleteOrder);
 

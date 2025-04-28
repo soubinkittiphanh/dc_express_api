@@ -57,6 +57,88 @@ const createOrder = async (req, res) => {
   }
 };
 
+
+
+const updateOrder = async (req, res) => {
+  try {
+    const { body, files } = req;
+    const { id } = req.params;
+
+    // Parse JSON fields
+    const orderDetails = JSON.parse(body.orderDetails);
+    const existingImageIds = JSON.parse(body.existingImageIds || '[]'); // safe default
+
+    logger.info(`Updating order ID: ${id}`);
+    logger.info(`Order details: ${JSON.stringify(orderDetails)}`);
+    logger.info(`Existing image IDs to keep: ${existingImageIds}`);
+
+    // Update order
+    const [updated] = await OrderTable.update(orderDetails, { where: { id } });
+
+    if (!updated) {
+      return res.status(404).json({ message: 'Order not found or no changes made' });
+    }
+
+    // Delete images that are not in existingImageIds
+    if (Array.isArray(existingImageIds)) {
+      const imagesToDelete = await Image.findAll({
+        where: {
+          orderId: id,
+          id: { [Op.notIn]: existingImageIds },
+        },
+      });
+
+      for (const img of imagesToDelete) {
+        // Delete physical file if needed
+        if (fs.existsSync(img.filePath)) {
+          fs.unlinkSync(img.filePath);
+        }
+        await img.destroy();
+      }
+    }
+
+    // Save new uploaded images
+    if (files && files.images) {
+      const imagesArray = Array.isArray(files.images) ? files.images : [files.images];
+
+      for (const file of imagesArray) {
+        await Image.create({
+          orderId: id,
+          fileName: file.filename,
+          filePath: file.path, // or wherever you save
+        });
+      }
+    }
+
+    const updatedOrder = await OrderTable.findByPk(id, {
+      include: [Image], // optional if you want to return images too
+    });
+
+    res.status(200).json({ message: 'Order updated successfully', data: updatedOrder });
+  } catch (error) {
+    console.error('Error updating order:', error);
+    res.status(400).json({ error: error.message });
+  }
+}
+// Update an order
+const updateOrderStatus = async (req, res) => {
+  const { status } = req.body
+  logger.warn(`OBJECT ${JSON.stringify(req.body)}}`)
+  try {
+    const { id } = req.params;
+    const [updated] = await OrderTable.update({ status }, { where: { id } });
+
+    if (!updated) {
+      return res.status(404).json({ message: 'Order not found or no changes made' });
+    }
+
+    const updatedOrder = await OrderTable.findByPk(id);
+    res.status(200).json({ message: 'Order updated successfully', data: updatedOrder });
+  } catch (error) {
+    console.error('Error updating order:', error);
+    res.status(400).json({ error: error.message });
+  }
+};
 // Get all orders
 const getAllOrders = async (req, res) => {
   try {
@@ -177,42 +259,6 @@ const getOrdersByRiderOrMechant = async (req, res) => {
 };
 
 
-// Update an order
-const updateOrder = async (req, res) => {
-  try {
-    const { id } = req.params;
-    const [updated] = await OrderTable.update(req.body, { where: { id } });
-
-    if (!updated) {
-      return res.status(404).json({ message: 'Order not found or no changes made' });
-    }
-
-    const updatedOrder = await OrderTable.findByPk(id);
-    res.status(200).json({ message: 'Order updated successfully', data: updatedOrder });
-  } catch (error) {
-    console.error('Error updating order:', error);
-    res.status(400).json({ error: error.message });
-  }
-};
-// Update an order
-const updateOrderStatus = async (req, res) => {
-  const { status } = req.body
-  logger.warn(`OBJECT ${JSON.stringify(req.body)}}`)
-  try {
-    const { id } = req.params;
-    const [updated] = await OrderTable.update({ status }, { where: { id } });
-
-    if (!updated) {
-      return res.status(404).json({ message: 'Order not found or no changes made' });
-    }
-
-    const updatedOrder = await OrderTable.findByPk(id);
-    res.status(200).json({ message: 'Order updated successfully', data: updatedOrder });
-  } catch (error) {
-    console.error('Error updating order:', error);
-    res.status(400).json({ error: error.message });
-  }
-};
 
 // Delete an order
 const deleteOrder = async (req, res) => {
