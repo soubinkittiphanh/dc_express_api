@@ -5,7 +5,7 @@ const Merchant = require('..').merchant; // Adjust the path to your models
 const Image = require('..').image; // Adjust the path to your models
 const { Op } = require('sequelize');
 const logger = require('../../api/logger');
-
+const fs = require('fs');
 // Create a new order
 // const createOrder = async (req, res) => {
 //   try {
@@ -72,46 +72,42 @@ const updateOrder = async (req, res) => {
     logger.info(`Order details: ${JSON.stringify(orderDetails)}`);
     logger.info(`Existing image IDs to keep: ${existingImageIds}`);
 
-    // Update order
+    // Update the order
     const [updated] = await OrderTable.update(orderDetails, { where: { id } });
 
     if (!updated) {
       return res.status(404).json({ message: 'Order not found or no changes made' });
     }
 
-    // Delete images that are not in existingImageIds
-    if (Array.isArray(existingImageIds)) {
-      const imagesToDelete = await Image.findAll({
-        where: {
-          orderId: id,
-          id: { [Op.notIn]: existingImageIds },
-        },
-      });
+    // Delete old images not in kept list
+    const imagesToDelete = await Image.findAll({
+      where: {
+        orderId: id,
+        id: { [Op.notIn]: existingImageIds },
+      },
+    });
 
-      for (const img of imagesToDelete) {
-        // Delete physical file if needed
-        if (fs.existsSync(img.filePath)) {
-          fs.unlinkSync(img.filePath);
-        }
-        await img.destroy();
+    for (const img of imagesToDelete) {
+      if (fs.existsSync(img.filePath)) {
+        fs.unlinkSync(img.filePath);
       }
+      await img.destroy();
     }
 
     // Save new uploaded images
-    if (files && files.images) {
-      const imagesArray = Array.isArray(files.images) ? files.images : [files.images];
-
-      for (const file of imagesArray) {
+    if (files && files.length > 0) {
+      for (const file of files) {
         await Image.create({
           orderId: id,
-          fileName: file.filename,
-          filePath: file.path, // or wherever you save
-        });
+          name: file.filename,   // ✅ use 'name' instead of 'fileName'
+          path: file.path        // ✅ use 'path' instead of 'filePath'
+        });        
       }
     }
 
+    // Fetch updated order with associated images (corrected with alias)
     const updatedOrder = await OrderTable.findByPk(id, {
-      include: [Image], // optional if you want to return images too
+      include: [{ model: Image, as: 'images' }],
     });
 
     res.status(200).json({ message: 'Order updated successfully', data: updatedOrder });
@@ -198,65 +194,100 @@ const getOrderById = async (req, res) => {
   }
 };
 
-// Get orders by Rider ID or Merchant ID
 const getOrdersByRiderOrMechant = async (req, res) => {
-
+  const { merchantId, riderId, startDate, endDate } = req.body;
+  logger.warn(`Merchant ${merchantId} rider ${riderId}`);
 
   try {
-    const { id } = req.params;
-    const { type, startDate, endDate } = req.query; // type: 'rider' or 'merchant'
-
-    if (!id || !type) {
-      return res.status(400).json({ message: 'Missing required parameters' });
+    if (!merchantId && !riderId) {
+      return res.status(400).json({ message: 'Missing riderId or merchantId' });
     }
 
-    // Base where clause depending on type
-    const whereClause = type === 'rider' ? { riderId: id } : { merchantId: id };
-
-    // Add createdAt condition if date filters are provided
+    // Build date condition
+    const dateCondition = {};
     if (startDate && endDate) {
-      whereClause.createdAt = {
-        // [Op.between]: [new Date(startDate), new Date(endDate)]
+      dateCondition.createdAt = {
         [Op.between]: [
-          new Date(`${startDate} 00:00:00`), // Start of the selected date
-          new Date(`${endDate} 23:59:59`)    // End of the selected date
+          new Date(`${startDate} 00:00:00`),
+          new Date(`${endDate} 23:59:59`)
         ]
       };
     } else if (startDate) {
-      whereClause.createdAt = {
+      dateCondition.createdAt = {
         [Op.gte]: new Date(`${startDate} 00:00:00`)
       };
     } else if (endDate) {
-      whereClause.createdAt = {
-        [Op.lte]: new Date(`${endDate} 23:59:59`) 
+      dateCondition.createdAt = {
+        [Op.lte]: new Date(`${endDate} 23:59:59`)
       };
     }
 
-    const orders = await OrderTable.findAll({
-      where: whereClause,
-      include: [
-        {
-          model: OrderPrice,
-          as: 'orderPrices',
-          include: [
-            { model: Rider, as: 'rider' },
-            { model: Merchant, as: 'merchant' },
-          ],
+    // Fetch orders by riderId
+    let riderOrders = [];
+    if (riderId) {
+      riderOrders = await OrderTable.findAll({
+        where: {
+          riderId,
+          ...dateCondition
         },
-        { model: Merchant, as: 'merchant' },
-      ],
+        include: [
+          {
+            model: OrderPrice,
+            as: 'orderPrices',
+            include: [
+              { model: Rider, as: 'rider' },
+              { model: Merchant, as: 'merchant' }
+            ]
+          },
+          { model: Merchant, as: 'merchant' }
+        ]
+      });
+    }
+    logger.warn(`riderOrders order ${riderOrders.length}`)
+
+    // Fetch orders by merchantId
+    let merchantOrders = [];
+    if (merchantId) {
+      merchantOrders = await OrderTable.findAll({
+        where: {
+          merchantId,
+          ...dateCondition
+        },
+        include: [
+          {
+            model: OrderPrice,
+            as: 'orderPrices',
+            include: [
+              { model: Rider, as: 'rider' },
+              { model: Merchant, as: 'merchant' }
+            ]
+          },
+          { model: Merchant, as: 'merchant' }
+        ]
+      });
+    }
+    logger.warn(`Merchant order ${merchantOrders.length}`)
+
+    // Combine results and remove duplicates by order ID
+    const allOrders = [...riderOrders, ...merchantOrders];
+    const uniqueOrdersMap = new Map();
+    allOrders.forEach(order => {
+      uniqueOrdersMap.set(order.id, order);
     });
 
-    if (!orders.length) {
+    const uniqueOrders = Array.from(uniqueOrdersMap.values());
+
+    if (!uniqueOrders.length) {
       return res.status(404).json({ message: 'No orders found' });
     }
 
-    res.status(200).json({ data: orders });
+    res.status(200).json({ data: uniqueOrders });
   } catch (error) {
     console.error('Error fetching orders:', error);
     res.status(500).json({ error: error.message });
   }
 };
+
 
 
 

@@ -2892,3 +2892,273 @@
 {"level":"warn","message":"env: dcommerce_express_dev","timestamp":"2025-04-28T11:57:30.305Z"}
 {"level":"info","message":"client_db Connection established","timestamp":"2025-04-28T11:57:30.888Z"}
 {"level":"info","message":"Database client is synchronized","timestamp":"2025-04-28T11:57:34.679Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-04-29T11:51:44.654Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-04-29T11:51:44.656Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-04-29T11:51:44.657Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-04-29T11:51:44.657Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-04-29T11:51:44.658Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-04-29T11:51:45.260Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-04-29T11:51:45.261Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-04-29T11:51:45.262Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-04-29T11:51:45.578Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-04-29T11:51:50.048Z"}
+{"level":"info","message":"Received file type: image/jpeg","timestamp":"2025-04-29T12:03:58.347Z"}
+{"level":"info","message":"Updating order ID: 16","timestamp":"2025-04-29T12:03:58.369Z"}
+{"level":"info","message":"Order details: {\"id\":16,\"recipientTel\":\"758034002\",\"merchantTel\":\"495009304\",\"note\":\"nOTTSSE\",\"recipientTelName\":\"Khoi\",\"recipientAddress\":\"Nonekeo\",\"riderFee\":20000,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"Thadkhao\",\"orderLongitude\":\"0\",\"orderLutitude\":\"0\",\"images\":[{\"id\":1,\"name\":\"c522d514-a930-4961-b3be-43a1540e0f247241571230124076438.jpg\",\"path\":\"/root/api/dc_express_api/upload/1745842302888-c522d514-a930-4961-b3be-43a1540e0f247241571230124076438.jpg\",\"createdAt\":\"2025-04-28T12:11:42.000Z\",\"updateTimestamp\":\"2025-04-28T12:11:42.000Z\",\"orderId\":16}]}","timestamp":"2025-04-29T12:03:58.370Z"}
+{"level":"info","message":"Existing image IDs to keep: 1","timestamp":"2025-04-29T12:03:58.370Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-04-29T12:12:34.936Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-04-29T12:12:34.938Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-04-29T12:12:34.939Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-04-29T12:12:34.939Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-04-29T12:12:34.939Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-04-29T12:12:35.410Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-04-29T12:12:35.411Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-04-29T12:12:35.412Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-04-29T12:12:35.735Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-04-29T12:12:39.711Z"}
+{"level":"info","message":"Received file type: image/jpeg","timestamp":"2025-04-29T12:12:49.289Z"}
+{"level":"info","message":"Updating order ID: 16","timestamp":"2025-04-29T12:12:49.303Z"}
+{"level":"info","message":"Order details: {\"id\":16,\"recipientTel\":\"758034002\",\"merchantTel\":\"495009304\",\"note\":\"nOTTSSE\",\"recipientTelName\":\"Khoi\",\"recipientAddress\":\"Nonekeo\",\"riderFee\":20000,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"Thadkhao\",\"orderLongitude\":\"0\",\"orderLutitude\":\"0\",\"images\":[{\"id\":1,\"name\":\"c522d514-a930-4961-b3be-43a1540e0f247241571230124076438.jpg\",\"path\":\"/root/api/dc_express_api/upload/1745842302888-c522d514-a930-4961-b3be-43a1540e0f247241571230124076438.jpg\",\"createdAt\":\"2025-04-28T12:11:42.000Z\",\"updateTimestamp\":\"2025-04-28T12:11:42.000Z\",\"orderId\":16}]}","timestamp":"2025-04-29T12:12:49.304Z"}
+{"level":"info","message":"Existing image IDs to keep: 1","timestamp":"2025-04-29T12:12:49.305Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-04-29T12:15:30.633Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-04-29T12:15:30.636Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-04-29T12:15:30.637Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-04-29T12:15:30.637Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-04-29T12:15:30.637Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-04-29T12:15:31.211Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-04-29T12:15:31.212Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-04-29T12:15:31.213Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-04-29T12:15:32.398Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-04-29T12:15:35.913Z"}
+{"level":"info","message":"Received file type: image/jpeg","timestamp":"2025-04-29T12:15:46.131Z"}
+{"level":"info","message":"Updating order ID: 16","timestamp":"2025-04-29T12:15:46.143Z"}
+{"level":"info","message":"Order details: {\"id\":16,\"recipientTel\":\"758034002\",\"merchantTel\":\"495009304\",\"note\":\"nOTTSSE\",\"recipientTelName\":\"Khoi\",\"recipientAddress\":\"Nonekeo\",\"riderFee\":20000,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"Thadkhao\",\"orderLongitude\":\"0\",\"orderLutitude\":\"0\",\"images\":[{\"id\":1,\"name\":\"c522d514-a930-4961-b3be-43a1540e0f247241571230124076438.jpg\",\"path\":\"/root/api/dc_express_api/upload/1745842302888-c522d514-a930-4961-b3be-43a1540e0f247241571230124076438.jpg\",\"createdAt\":\"2025-04-28T12:11:42.000Z\",\"updateTimestamp\":\"2025-04-28T12:11:42.000Z\",\"orderId\":16}]}","timestamp":"2025-04-29T12:15:46.144Z"}
+{"level":"info","message":"Existing image IDs to keep: 1","timestamp":"2025-04-29T12:15:46.144Z"}
+{"level":"info","message":"Received file type: image/jpeg","timestamp":"2025-04-29T12:16:07.406Z"}
+{"level":"info","message":"Updating order ID: 16","timestamp":"2025-04-29T12:16:07.413Z"}
+{"level":"info","message":"Order details: {\"id\":16,\"recipientTel\":\"758034002\",\"merchantTel\":\"495009304\",\"note\":\"nOTTSSE\",\"recipientTelName\":\"Khoi\",\"recipientAddress\":\"Nonekeo\",\"riderFee\":20000,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"Thadkhao\",\"orderLongitude\":\"0\",\"orderLutitude\":\"0\",\"images\":[{\"id\":1,\"name\":\"c522d514-a930-4961-b3be-43a1540e0f247241571230124076438.jpg\",\"path\":\"/root/api/dc_express_api/upload/1745842302888-c522d514-a930-4961-b3be-43a1540e0f247241571230124076438.jpg\",\"createdAt\":\"2025-04-28T12:11:42.000Z\",\"updateTimestamp\":\"2025-04-28T12:11:42.000Z\",\"orderId\":16}]}","timestamp":"2025-04-29T12:16:07.413Z"}
+{"level":"info","message":"Existing image IDs to keep: 1","timestamp":"2025-04-29T12:16:07.414Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-04-29T12:16:38.424Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-04-29T12:16:38.426Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-04-29T12:16:38.427Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-04-29T12:16:38.427Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-04-29T12:16:38.428Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-04-29T12:16:38.990Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-04-29T12:16:38.991Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-04-29T12:16:38.992Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-04-29T12:16:39.247Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-04-29T12:16:42.639Z"}
+{"level":"info","message":"Received file type: image/jpeg","timestamp":"2025-04-29T12:16:51.048Z"}
+{"level":"info","message":"Updating order ID: 16","timestamp":"2025-04-29T12:16:51.083Z"}
+{"level":"info","message":"Order details: {\"id\":16,\"recipientTel\":\"758034002\",\"merchantTel\":\"495009304\",\"note\":\"nOTTSSE\",\"recipientTelName\":\"Khoi\",\"recipientAddress\":\"Nonekeo\",\"riderFee\":20000,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"Thadkhao\",\"orderLongitude\":\"0\",\"orderLutitude\":\"0\",\"images\":[{\"id\":1,\"name\":\"c522d514-a930-4961-b3be-43a1540e0f247241571230124076438.jpg\",\"path\":\"/root/api/dc_express_api/upload/1745842302888-c522d514-a930-4961-b3be-43a1540e0f247241571230124076438.jpg\",\"createdAt\":\"2025-04-28T12:11:42.000Z\",\"updateTimestamp\":\"2025-04-28T12:11:42.000Z\",\"orderId\":16}]}","timestamp":"2025-04-29T12:16:51.085Z"}
+{"level":"info","message":"Existing image IDs to keep: 1","timestamp":"2025-04-29T12:16:51.086Z"}
+{"level":"info","message":"Received file type: image/jpeg","timestamp":"2025-04-29T12:17:21.632Z"}
+{"level":"info","message":"Updating order ID: 16","timestamp":"2025-04-29T12:17:21.654Z"}
+{"level":"info","message":"Order details: {\"id\":16,\"recipientTel\":\"758034002\",\"merchantTel\":\"495009304\",\"note\":\"nOTTSSE\",\"recipientTelName\":\"Khoi\",\"recipientAddress\":\"Nonekeo\",\"riderFee\":20000,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"Thadkhao\",\"orderLongitude\":\"0\",\"orderLutitude\":\"0\",\"images\":[{\"id\":3,\"name\":\"1745929011052-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"path\":\"/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/upload/1745929011052-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"createdAt\":\"2025-04-29T12:16:51.000Z\",\"updateTimestamp\":\"2025-04-29T12:16:51.000Z\",\"orderId\":16}]}","timestamp":"2025-04-29T12:17:21.660Z"}
+{"level":"info","message":"Existing image IDs to keep: 3","timestamp":"2025-04-29T12:17:21.661Z"}
+{"level":"info","message":"Received file type: image/jpeg","timestamp":"2025-04-29T12:20:48.886Z"}
+{"level":"info","message":"Updating order ID: 16","timestamp":"2025-04-29T12:20:48.922Z"}
+{"level":"info","message":"Order details: {\"id\":16,\"recipientTel\":\"758034002\",\"merchantTel\":\"495009304\",\"note\":\"nOTTSSE\",\"recipientTelName\":\"Khoi\",\"recipientAddress\":\"Nonekeo\",\"riderFee\":20000,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"Thadkhao\",\"orderLongitude\":\"0\",\"orderLutitude\":\"0\",\"images\":[{\"id\":4,\"name\":\"1745929041649-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"path\":\"/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/upload/1745929041649-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"createdAt\":\"2025-04-29T12:17:21.000Z\",\"updateTimestamp\":\"2025-04-29T12:17:21.000Z\",\"orderId\":16}]}","timestamp":"2025-04-29T12:20:48.922Z"}
+{"level":"info","message":"Existing image IDs to keep: 4","timestamp":"2025-04-29T12:20:48.927Z"}
+{"level":"info","message":"Updating order ID: 16","timestamp":"2025-04-29T12:26:56.147Z"}
+{"level":"info","message":"Order details: {\"id\":16,\"recipientTel\":\"758034002\",\"merchantTel\":\"495009304\",\"note\":\"nOTTSSE\",\"recipientTelName\":\"Khoi\",\"recipientAddress\":\"Nonekeo\",\"riderFee\":20000,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"Thadkhao\",\"orderLongitude\":\"0\",\"orderLutitude\":\"0\",\"images\":[{\"id\":4,\"name\":\"1745929041649-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"path\":\"/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/upload/1745929041649-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"createdAt\":\"2025-04-29T12:17:21.000Z\",\"updateTimestamp\":\"2025-04-29T12:17:21.000Z\",\"orderId\":16}]}","timestamp":"2025-04-29T12:26:56.163Z"}
+{"level":"info","message":"Existing image IDs to keep: 4","timestamp":"2025-04-29T12:26:56.164Z"}
+{"level":"info","message":"Received file type: image/jpeg","timestamp":"2025-04-29T12:28:02.611Z"}
+{"level":"info","message":"Updating order ID: 16","timestamp":"2025-04-29T12:28:02.690Z"}
+{"level":"info","message":"Order details: {\"id\":16,\"recipientTel\":\"758034002\",\"merchantTel\":\"495009304\",\"note\":\"nOTTSSE\",\"recipientTelName\":\"Khoi\",\"recipientAddress\":\"Nonekeo\",\"riderFee\":20000,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"Thadkhao\",\"orderLongitude\":\"0\",\"orderLutitude\":\"0\",\"images\":[{\"id\":4,\"name\":\"1745929041649-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"path\":\"/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/upload/1745929041649-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"createdAt\":\"2025-04-29T12:17:21.000Z\",\"updateTimestamp\":\"2025-04-29T12:17:21.000Z\",\"orderId\":16}]}","timestamp":"2025-04-29T12:28:02.691Z"}
+{"level":"info","message":"Existing image IDs to keep: 4","timestamp":"2025-04-29T12:28:02.692Z"}
+{"level":"info","message":"Updating order ID: 16","timestamp":"2025-04-29T13:05:38.190Z"}
+{"level":"info","message":"Order details: {\"id\":16,\"recipientTel\":\"758034002\",\"merchantTel\":\"495009304\",\"note\":\"nOTTSSE\",\"recipientTelName\":\"Khoi\",\"recipientAddress\":\"Nonekeo\",\"riderFee\":20000,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"Thadkhao\",\"orderLongitude\":\"0\",\"orderLutitude\":\"0\",\"images\":[{\"id\":4,\"name\":\"1745929041649-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"path\":\"/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/upload/1745929041649-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"createdAt\":\"2025-04-29T12:17:21.000Z\",\"updateTimestamp\":\"2025-04-29T12:17:21.000Z\",\"orderId\":16}]}","timestamp":"2025-04-29T13:05:38.207Z"}
+{"level":"info","message":"Existing image IDs to keep: 4","timestamp":"2025-04-29T13:05:38.207Z"}
+{"level":"info","message":"Received file type: image/jpeg","timestamp":"2025-04-29T13:05:52.269Z"}
+{"level":"info","message":"Updating order ID: 16","timestamp":"2025-04-29T13:05:52.285Z"}
+{"level":"info","message":"Order details: {\"id\":16,\"recipientTel\":\"758034002\",\"merchantTel\":\"495009304\",\"note\":\"nOTTSSE\",\"recipientTelName\":\"Khoi\",\"recipientAddress\":\"Nonekeo\",\"riderFee\":20000,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"Thadkhao\",\"orderLongitude\":\"0\",\"orderLutitude\":\"0\",\"images\":[{\"id\":4,\"name\":\"1745929041649-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"path\":\"/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/upload/1745929041649-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"createdAt\":\"2025-04-29T12:17:21.000Z\",\"updateTimestamp\":\"2025-04-29T12:17:21.000Z\",\"orderId\":16}]}","timestamp":"2025-04-29T13:05:52.287Z"}
+{"level":"info","message":"Existing image IDs to keep: 4","timestamp":"2025-04-29T13:05:52.287Z"}
+{"level":"info","message":"Received file type: image/jpeg","timestamp":"2025-04-29T13:19:52.245Z"}
+{"level":"info","message":"Updating order ID: 16","timestamp":"2025-04-29T13:19:52.301Z"}
+{"level":"info","message":"Order details: {\"id\":16,\"recipientTel\":\"758034002\",\"merchantTel\":\"495009304\",\"note\":\"nOTTSSE\",\"recipientTelName\":\"Khoi\",\"recipientAddress\":\"Nonekeo\",\"riderFee\":20000,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"Thadkhao\",\"orderLongitude\":\"0\",\"orderLutitude\":\"0\",\"images\":[{\"id\":4,\"name\":\"1745929041649-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"path\":\"/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/upload/1745929041649-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"createdAt\":\"2025-04-29T12:17:21.000Z\",\"updateTimestamp\":\"2025-04-29T12:17:21.000Z\",\"orderId\":16},{\"id\":7,\"name\":\"1745931952271-1c889d37-5550-4e01-88f7-d0947ed264b95810902339015221521.jpg\",\"path\":\"/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/upload/1745931952271-1c889d37-5550-4e01-88f7-d0947ed264b95810902339015221521.jpg\",\"createdAt\":\"2025-04-29T13:05:52.000Z\",\"updateTimestamp\":\"2025-04-29T13:05:52.000Z\",\"orderId\":16}]}","timestamp":"2025-04-29T13:19:52.304Z"}
+{"level":"info","message":"Existing image IDs to keep: 4,7","timestamp":"2025-04-29T13:19:52.304Z"}
+{"level":"info","message":"Updating order ID: 16","timestamp":"2025-04-29T13:20:04.721Z"}
+{"level":"info","message":"Order details: {\"id\":16,\"recipientTel\":\"758034002\",\"merchantTel\":\"495009304\",\"note\":\"nOTTSSE\",\"recipientTelName\":\"Khoi\",\"recipientAddress\":\"Nonekeo\",\"riderFee\":20000,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"Thadkhao\",\"orderLongitude\":\"0\",\"orderLutitude\":\"0\",\"images\":[{\"id\":4,\"name\":\"1745929041649-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"path\":\"/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/upload/1745929041649-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"createdAt\":\"2025-04-29T12:17:21.000Z\",\"updateTimestamp\":\"2025-04-29T12:17:21.000Z\",\"orderId\":16}]}","timestamp":"2025-04-29T13:20:04.723Z"}
+{"level":"info","message":"Existing image IDs to keep: 4","timestamp":"2025-04-29T13:20:04.725Z"}
+{"level":"info","message":"Received file type: image/jpeg","timestamp":"2025-04-29T13:20:17.117Z"}
+{"level":"info","message":"Updating order ID: 16","timestamp":"2025-04-29T13:20:17.130Z"}
+{"level":"info","message":"Order details: {\"id\":16,\"recipientTel\":\"758034002\",\"merchantTel\":\"495009304\",\"note\":\"nOTTSSE\",\"recipientTelName\":\"Khoi\",\"recipientAddress\":\"Nonekeo\",\"riderFee\":20000,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"Thadkhao\",\"orderLongitude\":\"0\",\"orderLutitude\":\"0\",\"images\":[{\"id\":4,\"name\":\"1745929041649-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"path\":\"/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/upload/1745929041649-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"createdAt\":\"2025-04-29T12:17:21.000Z\",\"updateTimestamp\":\"2025-04-29T12:17:21.000Z\",\"orderId\":16}]}","timestamp":"2025-04-29T13:20:17.131Z"}
+{"level":"info","message":"Existing image IDs to keep: 4","timestamp":"2025-04-29T13:20:17.131Z"}
+{"level":"info","message":"Updating order ID: 16","timestamp":"2025-04-29T13:20:41.468Z"}
+{"level":"info","message":"Order details: {\"id\":16,\"recipientTel\":\"758034002\",\"merchantTel\":\"495009304\",\"note\":\"nOTTSSE\",\"recipientTelName\":\"Khoi\",\"recipientAddress\":\"Nonekeo\",\"riderFee\":20000,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"Thadkhao\",\"orderLongitude\":\"0\",\"orderLutitude\":\"0\",\"images\":[{\"id\":4,\"name\":\"1745929041649-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"path\":\"/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/upload/1745929041649-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"createdAt\":\"2025-04-29T12:17:21.000Z\",\"updateTimestamp\":\"2025-04-29T12:17:21.000Z\",\"orderId\":16},{\"id\":9,\"name\":\"1745932817124-9ddb33d2-4591-4518-aad4-ad1a966a04337320450327092769568.jpg\",\"path\":\"/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/upload/1745932817124-9ddb33d2-4591-4518-aad4-ad1a966a04337320450327092769568.jpg\",\"createdAt\":\"2025-04-29T13:20:17.000Z\",\"updateTimestamp\":\"2025-04-29T13:20:17.000Z\",\"orderId\":16}]}","timestamp":"2025-04-29T13:20:41.471Z"}
+{"level":"info","message":"Existing image IDs to keep: 4,9","timestamp":"2025-04-29T13:20:41.471Z"}
+{"level":"info","message":"Received file type: image/jpeg","timestamp":"2025-04-29T13:22:00.601Z"}
+{"level":"info","message":"Updating order ID: 16","timestamp":"2025-04-29T13:22:00.609Z"}
+{"level":"info","message":"Order details: {\"id\":16,\"recipientTel\":\"758034002\",\"merchantTel\":\"495009304\",\"note\":\"nOTTSSE\",\"recipientTelName\":\"Khoi\",\"recipientAddress\":\"Nonekeo\",\"riderFee\":20000,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"Thadkhao\",\"orderLongitude\":\"0\",\"orderLutitude\":\"0\",\"images\":[{\"id\":4,\"name\":\"1745929041649-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"path\":\"/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/upload/1745929041649-6e9b5433-4298-4fe9-adab-978470c463b92984924976094588056.jpg\",\"createdAt\":\"2025-04-29T12:17:21.000Z\",\"updateTimestamp\":\"2025-04-29T12:17:21.000Z\",\"orderId\":16},{\"id\":9,\"name\":\"1745932817124-9ddb33d2-4591-4518-aad4-ad1a966a04337320450327092769568.jpg\",\"path\":\"/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/upload/1745932817124-9ddb33d2-4591-4518-aad4-ad1a966a04337320450327092769568.jpg\",\"createdAt\":\"2025-04-29T13:20:17.000Z\",\"updateTimestamp\":\"2025-04-29T13:20:17.000Z\",\"orderId\":16}]}","timestamp":"2025-04-29T13:22:00.612Z"}
+{"level":"info","message":"Existing image IDs to keep: 4,9","timestamp":"2025-04-29T13:22:00.613Z"}
+{"level":"info","message":"Received file type: image/jpeg","timestamp":"2025-04-29T13:27:56.675Z"}
+{"level":"info","message":"JSON DATA {\"id\":null,\"recipientTel\":\"884993003\",\"merchantTel\":\"8894343\",\"note\":\"note\",\"recipientTelName\":\"Khakk\",\"recipientAddress\":\"nonkeow\",\"riderFee\":20000.0,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"Nonvai\",\"orderLongitude\":null,\"orderLutitude\":null,\"images\":null}","timestamp":"2025-04-29T13:27:56.715Z"}
+{"level":"info","message":"FILE DATA [object Object]","timestamp":"2025-04-29T13:27:56.716Z"}
+{"level":"info","message":"Received file type: image/jpeg","timestamp":"2025-04-29T13:28:40.743Z"}
+{"level":"info","message":"JSON DATA {\"id\":null,\"recipientTel\":\"884993003\",\"merchantTel\":\"8894343\",\"note\":\"note\",\"recipientTelName\":\"Khakk\",\"recipientAddress\":\"nonkeow\",\"riderFee\":20000.0,\"status\":\"OPEN\",\"productCategory\":\"FOOD\",\"isActive\":true,\"merchantId\":1,\"orderAddress\":\"Nonvai\",\"orderLongitude\":null,\"orderLutitude\":null,\"images\":null}","timestamp":"2025-04-29T13:28:40.759Z"}
+{"level":"info","message":"FILE DATA [object Object]","timestamp":"2025-04-29T13:28:40.759Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-05-08T12:27:40.742Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-05-08T12:27:40.745Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-05-08T12:27:40.746Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-05-08T12:27:40.747Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-05-08T12:27:40.748Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-05-08T12:27:41.574Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-05-08T12:27:41.575Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-05-08T12:27:41.576Z"}
+{"level":"error","message":"client_db Connection error: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1002ms","name":"SequelizeConnectionError","original":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1002ms","sqlState":"08S01"},"parent":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1002ms","sqlState":"08S01"},"stack":"SequelizeConnectionError: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1002ms\n    at ConnectionManager.connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js:100:17)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async ConnectionManager._connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n    at async /Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32","timestamp":"2025-05-08T12:27:42.571Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-05-08T12:30:28.837Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-05-08T12:30:28.840Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-05-08T12:30:28.841Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-05-08T12:30:28.841Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-05-08T12:30:28.842Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-05-08T12:30:29.621Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-05-08T12:30:29.622Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-05-08T12:30:29.623Z"}
+{"level":"error","message":"client_db Connection error: (conn:9344, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1002ms","name":"SequelizeConnectionError","original":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1002ms","sqlState":"08S01"},"parent":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1002ms","sqlState":"08S01"},"stack":"SequelizeConnectionError: (conn:9344, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1002ms\n    at ConnectionManager.connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js:100:17)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async ConnectionManager._connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n    at async /Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32","timestamp":"2025-05-08T12:30:30.616Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-05-08T12:30:32.689Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-05-08T12:30:32.692Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-05-08T12:30:32.694Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-05-08T12:30:32.694Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-05-08T12:30:32.695Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-05-08T12:30:33.205Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-05-08T12:30:33.206Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-05-08T12:30:33.206Z"}
+{"level":"error","message":"client_db Connection error: (conn:9345, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1000ms","name":"SequelizeConnectionError","original":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1000ms","sqlState":"08S01"},"parent":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1000ms","sqlState":"08S01"},"stack":"SequelizeConnectionError: (conn:9345, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1000ms\n    at ConnectionManager.connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js:100:17)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async ConnectionManager._connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n    at async /Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32","timestamp":"2025-05-08T12:30:34.201Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-05-08T12:30:42.689Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-05-08T12:30:42.692Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-05-08T12:30:42.693Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-05-08T12:30:42.693Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-05-08T12:30:42.694Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-05-08T12:30:43.518Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-05-08T12:30:43.519Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-05-08T12:30:43.520Z"}
+{"level":"error","message":"client_db Connection error: (conn:9346, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1001ms","name":"SequelizeConnectionError","original":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1001ms","sqlState":"08S01"},"parent":{"code":"ER_CONNECTION_TIMEOUT","errno":45012,"fatal":true,"name":"SqlError","sql":null,"sqlMessage":"Connection timeout: failed to create socket after 1001ms","sqlState":"08S01"},"stack":"SequelizeConnectionError: (conn:9346, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1001ms\n    at ConnectionManager.connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/mariadb/connection-manager.js:100:17)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async ConnectionManager._connect (/Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:222:24)\n    at async /Users/soubinkittiphanh/Desktop/Pro/dc_express_api/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32","timestamp":"2025-05-08T12:30:44.516Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-05-08T13:36:25.185Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-05-08T13:36:25.188Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-05-08T13:36:25.189Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-05-08T13:36:25.189Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-05-08T13:36:25.190Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-05-08T13:36:25.994Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-05-08T13:36:25.995Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-05-08T13:36:25.998Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-05-08T13:36:26.958Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-05-08T13:36:45.668Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-05-09T10:11:27.498Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-05-09T10:11:27.501Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-05-09T10:11:27.502Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-05-09T10:11:27.502Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-05-09T10:11:27.503Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-05-09T10:11:28.335Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-05-09T10:11:28.335Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-05-09T10:11:28.336Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-05-09T10:11:29.435Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-05-09T10:11:36.479Z"}
+{"level":"warn","message":"ORDER PRICE DET 23 orderId 19","timestamp":"2025-05-09T10:12:31.624Z"}
+{"level":"warn","message":"RESPONSE []","timestamp":"2025-05-09T10:12:31.711Z"}
+{"level":"info","message":"Order status has been update successfully {\"id\":19,\"recipientTel\":\"22225588\",\"merchantTel\":\"5552266\",\"note\":\"ດ່ວນ\",\"recipientTelName\":\"ນີ\",\"recipientAddress\":\"ສີຫອມ\",\"riderFee\":30000,\"status\":\"ACCEPT\",\"orderAddress\":\"ໂພນສີນວນ\",\"orderLongitude\":null,\"orderLutitude\":null,\"productCategory\":\"FOOD\",\"payment\":\"CASH\",\"isActive\":true,\"createdAt\":\"2025-05-07T02:36:39.000Z\",\"updateTimestamp\":\"2025-05-09T10:12:31.000Z\",\"riderId\":null,\"merchantId\":2}","timestamp":"2025-05-09T10:12:31.930Z"}
+{"level":"info","message":"Order service response code 200 update count undefined update 1","timestamp":"2025-05-09T10:12:31.931Z"}
+{"level":"warn","message":"Transaction response 200","timestamp":"2025-05-09T10:12:31.971Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-05-10T10:03:44.098Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-05-10T10:03:44.101Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-05-10T10:03:44.101Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-05-10T10:03:44.102Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-05-10T10:03:44.102Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-05-10T10:03:44.943Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-05-10T10:03:44.944Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-05-10T10:03:44.945Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-05-10T10:03:45.594Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-05-10T10:03:54.056Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-05-10T10:17:27.436Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-05-10T10:17:27.439Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-05-10T10:17:27.440Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-05-10T10:17:27.440Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-05-10T10:17:27.441Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-05-10T10:17:28.240Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-05-10T10:17:28.241Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-05-10T10:17:28.242Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-05-10T10:17:29.177Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-05-10T10:17:36.451Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-05-10T10:21:04.153Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-05-10T10:21:04.156Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-05-10T10:21:04.157Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-05-10T10:21:04.157Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-05-10T10:21:04.158Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-05-10T10:21:04.979Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-05-10T10:21:04.980Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-05-10T10:21:04.981Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-05-10T10:21:05.887Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-05-10T10:21:12.079Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-05-10T10:21:12.082Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-05-10T10:21:12.082Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-05-10T10:21:12.083Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-05-10T10:21:12.083Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-05-10T10:21:12.783Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-05-10T10:21:12.784Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-05-10T10:21:12.785Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-05-10T10:21:13.633Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-05-10T10:21:23.853Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-05-10T10:22:10.435Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-05-10T10:22:10.438Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-05-10T10:22:10.439Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-05-10T10:22:10.439Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-05-10T10:22:10.440Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-05-10T10:22:11.243Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-05-10T10:22:11.244Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-05-10T10:22:11.245Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-05-10T10:22:12.067Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-05-10T10:22:21.081Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-05-10T10:27:23.614Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-05-10T10:27:23.617Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-05-10T10:27:23.618Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-05-10T10:27:23.618Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-05-10T10:27:23.619Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-05-10T10:27:25.119Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-05-10T10:27:25.120Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-05-10T10:27:25.121Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-05-10T10:27:25.889Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-05-10T10:27:40.755Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-05-10T10:29:20.681Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-05-10T10:29:20.684Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-05-10T10:29:20.685Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-05-10T10:29:20.685Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-05-10T10:29:20.686Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-05-10T10:29:21.466Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-05-10T10:29:21.467Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-05-10T10:29:21.468Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-05-10T10:29:22.014Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-05-10T10:29:29.969Z"}
+{"level":"warn","message":"Merchant 1 rider 1","timestamp":"2025-05-10T10:32:11.798Z"}
+{"level":"warn","message":"Merchant 1 rider 1","timestamp":"2025-05-10T10:33:02.182Z"}
+{"level":"warn","message":"Merchant 1 rider 1","timestamp":"2025-05-10T10:35:58.732Z"}
+{"level":"info","message":"Hello, Winston!","timestamp":"2025-05-10T10:39:34.089Z"}
+{"level":"warn","message":"This is a warning message.","timestamp":"2025-05-10T10:39:34.092Z"}
+{"level":"error","message":"This is an error message.","timestamp":"2025-05-10T10:39:34.092Z"}
+{"level":"info","message":"This is an information message.","timestamp":"2025-05-10T10:39:34.093Z"}
+{"ip":"192.168.1.1","level":"info","message":"User logged in","timestamp":"2025-05-10T10:39:34.093Z","username":"johndoe"}
+{"level":"info","message":"DC Epress is up","timestamp":"2025-05-10T10:39:34.779Z"}
+{"level":"info","message":"app is runing: 8888","timestamp":"2025-05-10T10:39:34.780Z"}
+{"level":"warn","message":"env: dcommerce_express_uat","timestamp":"2025-05-10T10:39:34.781Z"}
+{"level":"info","message":"client_db Connection established","timestamp":"2025-05-10T10:39:35.534Z"}
+{"level":"info","message":"Database client is synchronized","timestamp":"2025-05-10T10:39:44.505Z"}
+{"level":"warn","message":"Merchant 1 rider 1","timestamp":"2025-05-10T10:39:56.271Z"}
+{"level":"warn","message":"riderOrders order 0","timestamp":"2025-05-10T10:39:56.490Z"}
+{"level":"warn","message":"Merchant order 0","timestamp":"2025-05-10T10:39:56.564Z"}
+{"level":"warn","message":"Merchant 1 rider 1","timestamp":"2025-05-10T10:54:22.434Z"}
+{"level":"warn","message":"riderOrders order 0","timestamp":"2025-05-10T10:54:22.540Z"}
+{"level":"warn","message":"Merchant order 0","timestamp":"2025-05-10T10:54:22.617Z"}
+{"level":"warn","message":"Merchant 1 rider 1","timestamp":"2025-05-10T10:54:32.556Z"}
+{"level":"warn","message":"riderOrders order 0","timestamp":"2025-05-10T10:54:32.657Z"}
+{"level":"warn","message":"Merchant order 6","timestamp":"2025-05-10T10:54:32.743Z"}
+{"level":"warn","message":"Merchant 1 rider 1","timestamp":"2025-05-10T12:01:22.745Z"}
+{"level":"warn","message":"riderOrders order 0","timestamp":"2025-05-10T12:01:22.831Z"}
+{"level":"warn","message":"Merchant order 0","timestamp":"2025-05-10T12:01:23.016Z"}
+{"level":"warn","message":"Merchant 1 rider 1","timestamp":"2025-05-10T12:11:29.399Z"}
+{"level":"warn","message":"riderOrders order 0","timestamp":"2025-05-10T12:11:29.474Z"}
+{"level":"warn","message":"Merchant order 0","timestamp":"2025-05-10T12:11:29.538Z"}
+{"level":"warn","message":"Merchant 1 rider 1","timestamp":"2025-05-10T12:11:33.278Z"}
+{"level":"warn","message":"riderOrders order 0","timestamp":"2025-05-10T12:11:33.362Z"}
+{"level":"warn","message":"Merchant order 0","timestamp":"2025-05-10T12:11:33.435Z"}
+{"level":"warn","message":"Merchant 1 rider 1","timestamp":"2025-05-10T12:11:47.558Z"}
+{"level":"warn","message":"riderOrders order 0","timestamp":"2025-05-10T12:11:47.654Z"}
+{"level":"warn","message":"Merchant order 0","timestamp":"2025-05-10T12:11:47.726Z"}

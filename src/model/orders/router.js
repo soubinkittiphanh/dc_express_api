@@ -36,7 +36,8 @@ router.use(validateToken);
 router.post('/create',upload.array('images'), orderController.createOrder);
 router.get('/find', orderController.getAllOrders);
 router.get('/find/:id', orderController.getOrderById);
-router.get('/find/type/:id', orderController.getOrdersByRiderOrMechant);
+// router.get('/find/type/:id', orderController.getOrdersByRiderOrMechant);
+router.post('/find/type', orderController.getOrdersByRiderOrMechant);
 // router.put('/update/:id', orderController.updateOrder);
 // Update with images attached
 router.put('/update/:id', upload.array('images'), orderController.updateOrder);
